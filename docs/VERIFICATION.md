@@ -9,6 +9,8 @@
 - 实际 `/yulu:liu-bin chat;测试对话` 在显式提供插件环境时成功返回对话，并插入原文和中文括号释义。
 - 动态 shell 诊断确认：本机 CLI 的 Skill 级钩子可执行，但动态 shell 不会自动提供插件环境变量或事件 stdin，因此初始化必须从 Skill 路径显式设置环境。
 - 同一真实会话中，`translate;我最近有点累` 只回复原文“手中的火光 微弱的照亮”，无括号释义；随后 `off` 返回“已退出刘斌角色，恢复普通对话模式。”默认对话和显式转译/退出均已跑通。
+- 2026-11-24：将 `~/.claude/skills/yulu` 链接到项目后，`claude plugin list` 显示 `yulu@skills-dir` loaded；不带 `--plugin-dir` 的正常用户配置会话中 `/yulu:liu-bin chat;...` 成功唤起并返回角色对话。
+- 启动命令改为执行带 shebang 的 `scripts/yulu.py`，解决默认权限下旧 `python3` 形式不被 scoped 权限规则匹配的问题。
 
 ## 待验证/限制
 

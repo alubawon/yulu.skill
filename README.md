@@ -54,6 +54,14 @@ skills/liu-bin/      # 自包含角色包：相同资料、SKILL.md、校验脚�
 
 ## 验证
 
+个人安装（插件随项目更新）：
+
+```bash
+ln -s /Users/liuzihao35/repos/yulu.skill ~/.claude/skills/yulu
+```
+
+新会话中通过 `/yulu:liu-bin` 调用；已有会话使用 `/reload-plugins` 或重启。`claude plugin list` 应显示 `yulu@skills-dir` 为 loaded。个人链接不是当前项目目录的副本，修改项目源文件后仍需按说明重新生成角色包。
+
 ```bash
 python3 -m unittest discover -s tests -v
 python3 skills/shared/scripts/yulu.py validate characters/liu-bin
