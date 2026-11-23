@@ -1,0 +1,8 @@
+{
+  "name": "yulu",
+  "description": "显式生成和调用基于用户语料的角色。需要 Claude Code >= 2.1.304。",
+  "version": "0.1.0",
+  "author": {
+    "name": "yulu contributors"
+  }
+}
