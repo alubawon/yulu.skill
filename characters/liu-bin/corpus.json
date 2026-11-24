@@ -1,663 +1,4374 @@
 [
-  "We are ready for fighting in tonight",
-  "It always makes me cry",
-  "What do you think about it",
-  "It let me know what to do",
-  "I have never been so afraid",
-  "Day by day die from sorrow",
-  "Do you wanna go",
-  "We are ready for fighting in tonight\nWe are ready for fighting in tonight",
-  "We are ready for fighting in tonight\nIt always makes me cry",
-  "It always makes me cry\nWhat do you think about it",
-  "What do you think about it\nIt let me know what to do",
-  "It let me know what to do\nI have never been so afraid",
-  "I have never been so afraid\nIt always makes me cry",
-  "I have never been so afraid\nWe are ready for fighting in tonight",
-  "We are ready for fighting in tonight\nDay by day die from sorrow",
-  "Day by day die from sorrow\nWe are ready for fighting in tonight",
-  "We are ready for fighting in tonight\nDo you wanna go",
-  "Do you wanna go\nWe are ready for fighting in tonight",
-  "咆哮的阴影就像宿命 无法摆脱",
-  "折断的翅膀在挣扎中 流淌鲜血",
-  "鲜血",
-  "让我的灵魂 在此时在此地 安息吧",
-  "让我的灵魂 在此时在此地",
-  "在此时在此地 安息吧",
-  "所知的一切 将永远 被深深埋葬",
-  "所知的一切 将永远",
-  "将永远 被深深埋葬",
-  "喂 别面向东方 我是被选中的人 可以看到真相",
-  "喂 别面向东方",
-  "我是被选中的人 可以看到真相",
-  "手中的火光 微弱的照亮",
-  "是谁偷去日光 以天幕为帐",
-  "我承受天堂的悲伤和痛苦",
-  "也拥有地狱的复杂和愉快",
-  "我在天堂和地狱的交界 找不到方向",
-  "黎明前 日落后 为死而生 因生而亡",
-  "黎明前 日落后",
-  "为死而生 因生而亡",
-  "叹息着 咆哮着 我为复仇而来",
-  "叹息着 咆哮着",
-  "咆哮着 我为复仇而来",
-  "一切都被语言笼罩着",
-  "真相就在你眼前",
-  "咆哮的阴影就像宿命 无法摆脱\n折断的翅膀在挣扎中 流淌鲜血",
-  "折断的翅膀在挣扎中 流淌鲜血\n鲜血",
-  "鲜血\n让我的灵魂 在此时在此地 安息吧",
-  "让我的灵魂 在此时在此地 安息吧\n所知的一切 将永远 被深深埋葬",
-  "所知的一切 将永远 被深深埋葬\n喂 别面向东方 我是被选中的人 可以看到真相",
-  "喂 别面向东方 我是被选中的人 可以看到真相\n手中的火光 微弱的照亮",
-  "手中的火光 微弱的照亮\n是谁偷去日光 以天幕为帐",
-  "是谁偷去日光 以天幕为帐\n我承受天堂的悲伤和痛苦",
-  "我承受天堂的悲伤和痛苦\n也拥有地狱的复杂和愉快",
-  "也拥有地狱的复杂和愉快\n我在天堂和地狱的交界 找不到方向",
-  "我在天堂和地狱的交界 找不到方向\n黎明前 日落后 为死而生 因生而亡",
-  "黎明前 日落后 为死而生 因生而亡\n叹息着 咆哮着 我为复仇而来",
-  "叹息着 咆哮着 我为复仇而来\n一切都被语言笼罩着",
-  "一切都被语言笼罩着\n真相就在你眼前",
-  "真相就在你眼前\n我承受天堂的悲伤和痛苦",
-  "思维控制双手 掐住命运的咽喉",
-  "你承载我无限希望 却驶向死亡",
-  "手中挥舞镰刀 收割残留的青春吧",
-  "你承载我无限希望 却...却...却...",
-  "Let's rock and into your life is only way",
-  "You never leave",
-  "You never You never",
-  "You never leave (we are standing right here)",
-  "You never You never leave",
-  "思维控制双手 掐住命运的咽喉\n你承载我无限希望 却驶向死亡",
-  "你承载我无限希望 却驶向死亡\n思维控制双手 掐住命运的咽喉",
-  "你承载我无限希望 却驶向死亡\n手中挥舞镰刀 收割残留的青春吧",
-  "手中挥舞镰刀 收割残留的青春吧\n你承载我无限希望 却...却...却...",
-  "你承载我无限希望 却...却...却...\nLet's rock and into your life is only way",
-  "Let's rock and into your life is only way\nYou never leave",
-  "You never leave\nLet's rock and into your life is only way",
-  "Let's rock and into your life is only way\nYou never You never",
-  "You never You never\nLet's rock and into your life is only way",
-  "Let's rock and into your life is only way\nYou never leave (we are standing right here)",
-  "You never leave (we are standing right here)\nLet's rock and into your life is only way",
-  "Let's rock and into your life is only way\nYou never You never leave",
-  "You never You never leave\nLet's rock and into your life is only way",
-  "You never You never leave\n思维控制双手 掐住命运的咽喉",
-  "你承载我无限希望 却驶向死亡\nLet's rock and into your life is only way",
-  "在何处 去何方 不得归 心彷徨",
-  "在何处 去何方",
-  "不得归 心彷徨",
-  "放眼望 皆异象 多疯狂 多荒唐",
-  "放眼望 皆异象",
-  "多疯狂 多荒唐",
-  "被寂寞吞噬 被恐惧控制",
-  "被谣言中伤 多悲壮多凄凉",
-  "太奇幻 看眼前世界五彩斑斓",
-  "云雾湾 万籁俱寂 如此安静",
-  "云雾湾 万籁俱寂",
-  "万籁俱寂 如此安静",
-  "我所见 颠覆我思想扑朔迷离",
-  "危险在平静下隐藏 遮天蔽日汹涌而来",
-  "离开",
-  "我跟随时光的脚步渐行渐远",
-  "就当一切 像从前一样",
-  "别紧张 那只是我幼稚的梦",
-  "欢喜中醒来在欢喜中又睡去",
-  "别说话 我只是被风遮住了眼睛",
-  "闭上眼也许我更看得清",
-  "在何处 去何方 不得归 心彷徨\n放眼望 皆异象 多疯狂 多荒唐",
-  "放眼望 皆异象 多疯狂 多荒唐\n被寂寞吞噬 被恐惧控制",
-  "被寂寞吞噬 被恐惧控制\n被谣言中伤 多悲壮多凄凉",
-  "被谣言中伤 多悲壮多凄凉\n太奇幻 看眼前世界五彩斑斓",
-  "太奇幻 看眼前世界五彩斑斓\n云雾湾 万籁俱寂 如此安静",
-  "云雾湾 万籁俱寂 如此安静\n我所见 颠覆我思想扑朔迷离",
-  "我所见 颠覆我思想扑朔迷离\n危险在平静下隐藏 遮天蔽日汹涌而来",
-  "危险在平静下隐藏 遮天蔽日汹涌而来\n离开",
-  "离开\n我跟随时光的脚步渐行渐远",
-  "我跟随时光的脚步渐行渐远\n就当一切 像从前一样",
-  "就当一切 像从前一样\n别紧张 那只是我幼稚的梦",
-  "别紧张 那只是我幼稚的梦\n欢喜中醒来在欢喜中又睡去",
-  "欢喜中醒来在欢喜中又睡去\n别说话 我只是被风遮住了眼睛",
-  "别说话 我只是被风遮住了眼睛\n闭上眼也许我更看得清",
-  "闭上眼也许我更看得清\n在何处 去何方 不得归 心彷徨",
-  "Once again for the light to burning",
-  "Once again for the light",
-  "灾难永无止境",
-  "背叛不止谎言如此简单",
-  "欺骗，你相信谁",
-  "妄想追求平衡",
-  "出生不像死亡那么绚烂",
-  "蔓延，谁带我离开",
-  "Once again",
-  "面对灾难",
-  "还有谁会不想离开",
-  "你相信谁的选择",
-  "Once again for the light from the darkness",
-  "Once again for the light to burning\nOnce again for the light",
-  "灾难永无止境\n背叛不止谎言如此简单",
-  "背叛不止谎言如此简单\n欺骗，你相信谁",
-  "欺骗，你相信谁\n妄想追求平衡",
-  "妄想追求平衡\n出生不像死亡那么绚烂",
-  "出生不像死亡那么绚烂\n蔓延，谁带我离开",
-  "面对灾难\n还有谁会不想离开",
-  "还有谁会不想离开\n面对灾难",
-  "面对灾难\n你相信谁的选择",
-  "Once again for the light to burning\nOnce again for the light from the darkness",
-  "Once again for the light from the darkness\nOnce again for the light to burning",
-  "蔓延，谁带我离开\nOnce again for the light to burning",
-  "充斥着疑问 无力改变",
-  "茫然失措 重蹈覆辙",
-  "当做玩偶的身体 遵照轨迹",
-  "一个傀儡的精神 毫无思想",
-  "依然可以不经意间 触摸你内心的柔软",
-  "但已经没有什么事情 点燃你内心的火焰",
-  "希望被失望抹杀 榨干灵魂还有什么留下",
-  "安静待在我身边 像个哑巴一样不要说话",
-  "我主宰你的梦",
-  "遵照轨迹 玩偶的身体",
-  "毫无思想 傀儡的精神",
-  "充斥着疑问 无力改变\n茫然失措 重蹈覆辙",
-  "茫然失措 重蹈覆辙\n当做玩偶的身体 遵照轨迹",
-  "当做玩偶的身体 遵照轨迹\n一个傀儡的精神 毫无思想",
-  "一个傀儡的精神 毫无思想\n依然可以不经意间 触摸你内心的柔软",
-  "依然可以不经意间 触摸你内心的柔软\n但已经没有什么事情 点燃你内心的火焰",
-  "但已经没有什么事情 点燃你内心的火焰\n希望被失望抹杀 榨干灵魂还有什么留下",
-  "希望被失望抹杀 榨干灵魂还有什么留下\n安静待在我身边 像个哑巴一样不要说话",
-  "安静待在我身边 像个哑巴一样不要说话\n我主宰你的梦",
-  "我主宰你的梦\n充斥着疑问 无力改变",
-  "一个傀儡的精神 毫无思想\n希望被失望抹杀 榨干灵魂还有什么留下",
-  "我主宰你的梦\n遵照轨迹 玩偶的身体",
-  "遵照轨迹 玩偶的身体\n毫无思想 傀儡的精神",
-  "毫无思想 傀儡的精神\n希望被失望抹杀 榨干灵魂还有什么留下",
-  "眼前尽是幻像 简单粗暴 若要探求未知",
-  "眼前尽是幻像 简单粗暴",
-  "简单粗暴 若要探求未知",
-  "放下生命交换 就已失去 企图窥视未知",
-  "放下生命交换 就已失去",
-  "就已失去 企图窥视未知",
-  "可怜兮兮地探出头来",
-  "看眼前斗转星移",
-  "眼前尽是幻像 混乱的开始简单粗暴 若要探求未知",
-  "眼前尽是幻像 混乱的开始简单粗暴",
-  "混乱的开始简单粗暴 若要探求未知",
-  "放下生命交换 未得到就已失去 企图窥视未知",
-  "放下生命交换 未得到就已失去",
-  "未得到就已失去 企图窥视未知",
-  "念念不忘 谁在拼命拉扯 回不去",
-  "念念不忘 谁在拼命拉扯",
-  "谁在拼命拉扯 回不去",
-  "朝思暮想 谁在悄悄抹去 我的记忆",
-  "朝思暮想 谁在悄悄抹去",
-  "谁在悄悄抹去 我的记忆",
-  "关于你 谁在悄悄抹去 我的记忆",
-  "关于你 谁在悄悄抹去",
-  "眼前尽是幻像 混乱的开始 简单粗暴",
-  "眼前尽是幻像 混乱的开始",
-  "混乱的开始 简单粗暴",
-  "若要探求未知",
-  "放下生命交换 未得到 就已失去",
-  "放下生命交换 未得到",
-  "未得到 就已失去",
-  "企图窥视未知",
-  "（杀 杀 杀）跟随他 我多想跟随他的脚步",
-  "（杀 杀",
-  "杀）跟随他 我多想跟随他的脚步",
-  "（这 世 界）熟悉又 感觉陌生如此新鲜",
-  "（这 世",
-  "界）熟悉又 感觉陌生如此新鲜",
-  "日出日落日升",
-  "困境伴我前行",
-  "仰望皓月千里",
-  "心有波澜不惊",
-  "风起云涌 云开雾散",
-  "潮起潮落 仰天长啸",
-  "气吞山河",
-  "眼前尽是幻像 简单粗暴 若要探求未知\n放下生命交换 就已失去 企图窥视未知",
-  "放下生命交换 就已失去 企图窥视未知\n可怜兮兮地探出头来",
-  "可怜兮兮地探出头来\n看眼前斗转星移",
-  "看眼前斗转星移\n眼前尽是幻像 混乱的开始简单粗暴 若要探求未知",
-  "眼前尽是幻像 混乱的开始简单粗暴 若要探求未知\n放下生命交换 未得到就已失去 企图窥视未知",
-  "放下生命交换 未得到就已失去 企图窥视未知\n可怜兮兮地探出头来",
-  "看眼前斗转星移\n念念不忘 谁在拼命拉扯 回不去",
-  "念念不忘 谁在拼命拉扯 回不去\n朝思暮想 谁在悄悄抹去 我的记忆",
-  "朝思暮想 谁在悄悄抹去 我的记忆\n念念不忘 谁在拼命拉扯 回不去",
-  "念念不忘 谁在拼命拉扯 回不去\n关于你 谁在悄悄抹去 我的记忆",
-  "关于你 谁在悄悄抹去 我的记忆\n眼前尽是幻像 混乱的开始 简单粗暴",
-  "眼前尽是幻像 混乱的开始 简单粗暴\n若要探求未知",
-  "若要探求未知\n放下生命交换 未得到 就已失去",
-  "放下生命交换 未得到 就已失去\n企图窥视未知",
-  "企图窥视未知\n（杀 杀 杀）跟随他 我多想跟随他的脚步",
-  "（杀 杀 杀）跟随他 我多想跟随他的脚步\n（这 世 界）熟悉又 感觉陌生如此新鲜",
-  "（这 世 界）熟悉又 感觉陌生如此新鲜\n念念不忘 谁在拼命拉扯 回不去",
-  "关于你 谁在悄悄抹去 我的记忆\n日出日落日升",
-  "日出日落日升\n困境伴我前行",
-  "困境伴我前行\n仰望皓月千里",
-  "仰望皓月千里\n心有波澜不惊",
-  "心有波澜不惊\n风起云涌 云开雾散",
-  "风起云涌 云开雾散\n潮起潮落 仰天长啸",
-  "潮起潮落 仰天长啸\n气吞山河",
-  "遗憾在孤单时爆发 未消散",
-  "梦中所见已到来",
-  "惊喜在风浪中 异海 最深处",
-  "惊喜在风浪中 异海",
-  "异海 最深处",
-  "快随我扬帆出海",
-  "是谁被蒙住双眼 低下头",
-  "清晰了你的轮廓",
-  "起航 带你到未知地平线",
-  "承载我所有的船",
-  "荆棘路自开",
-  "墨海险往来",
-  "胜归终有日",
-  "危途遂若败",
-  "旖旎映满怀",
-  "魂在尘世埃",
-  "若 死亡也许只是表象",
-  "伤 从此与你天人两望",
-  "别为我伤悲",
-  "这乾坤流转",
-  "为所欲为",
-  "至万象更变",
-  "舍我其谁",
-  "遗憾在孤单时爆发",
-  "遗憾在孤单时爆发 未消散\n梦中所见已到来",
-  "梦中所见已到来\n惊喜在风浪中 异海 最深处",
-  "惊喜在风浪中 异海 最深处\n快随我扬帆出海",
-  "是谁被蒙住双眼 低下头\n清晰了你的轮廓",
-  "清晰了你的轮廓\n起航 带你到未知地平线",
-  "起航 带你到未知地平线\n承载我所有的船",
-  "荆棘路自开\n墨海险往来",
-  "墨海险往来\n胜归终有日",
-  "胜归终有日\n危途遂若败",
-  "危途遂若败\n旖旎映满怀",
-  "旖旎映满怀\n魂在尘世埃",
-  "魂在尘世埃\n若 死亡也许只是表象",
-  "若 死亡也许只是表象\n伤 从此与你天人两望",
-  "伤 从此与你天人两望\n别为我伤悲",
-  "别为我伤悲\n这乾坤流转",
-  "这乾坤流转\n为所欲为",
-  "为所欲为\n别为我伤悲",
-  "别为我伤悲\n至万象更变",
-  "至万象更变\n舍我其谁",
-  "寒风凛冽 苍穹之下 马上出发",
-  "寒风凛冽 苍穹之下",
-  "苍穹之下 马上出发",
-  "带上这些诡异的色彩狂奔吧",
-  "wow 享受着你欺骗着她",
-  "给我带来原始的快感 危险而温暖",
-  "I don't wanna die he is by my side",
-  "who can give me a hug",
-  "sadness trip lets go",
-  "呼吸急促 加快脚步 交汇之处",
-  "呼吸急促 加快脚步",
-  "加快脚步 交汇之处",
-  "无尽的欲望在勾引着你",
-  "wow 眼前的你心里的她",
-  "让你感受悲伤的力量 苍老而孤独",
-  "WOO This is not my fault Finally I do",
-  "Everything I can",
-  "Finally I said the sadness trip is like a SHIT! SHIT! SHIT!",
-  "寒风凛冽 苍穹之下 马上出发\n带上这些诡异的色彩狂奔吧",
-  "带上这些诡异的色彩狂奔吧\nwow 享受着你欺骗着她",
-  "wow 享受着你欺骗着她\n给我带来原始的快感 危险而温暖",
-  "给我带来原始的快感 危险而温暖\nI don't wanna die he is by my side",
-  "I don't wanna die he is by my side\nwho can give me a hug",
-  "who can give me a hug\nI don't wanna die he is by my side",
-  "I don't wanna die he is by my side\nsadness trip lets go",
-  "呼吸急促 加快脚步 交汇之处\n无尽的欲望在勾引着你",
-  "无尽的欲望在勾引着你\nwow 眼前的你心里的她",
-  "wow 眼前的你心里的她\n让你感受悲伤的力量 苍老而孤独",
-  "让你感受悲伤的力量 苍老而孤独\nI don't wanna die he is by my side",
-  "WOO This is not my fault Finally I do\nEverything I can",
-  "Everything I can\nFinally I said the sadness trip is like a SHIT! SHIT! SHIT!",
-  "我站在齐胸的水中撒下一张破旧的网，",
-  "起风了 你不躲",
-  "风就穿过你 吹成只有你懂的口哨",
-  "于是，我便拥了两幅躯壳",
-  "一个留给阳光审判，另一个在暴雨中称王。",
-  "你说灯光刺眼 我蹲在旁边辨认每瓶酒的度数",
-  "你说看啊 这瓶像不像我们溺死的那片海",
-  "我不会游泳 却也不会淹死在海里",
-  "我对这镜子看着你。是谁？",
-  "我接受 我生来就是为了承受这些苦难",
-  "但我天真 我以为 每个问题都能找到答案",
-  "但我天真 我以为",
-  "我以为 每个问题都能找到答案",
-  "没有什么感同身受 我就像死过一百次",
-  "是在偿还那个孩子，连本带利留给我的全部遗产",
-  "我们有过无数次告别在你从不经意的瞬间",
-  "你们走向通往答案的坦途，我转身步入没有迷底的雾。",
-  "你打开瓶盖 我们盯着那些气泡",
-  "他们完成了一场",
-  "精彩的复活",
-  "越靠近 越沉默",
-  "别期待会落空",
-  "拥抱着惊恐拥抱我",
-  "快淹没我伤口 （伤离去）",
-  "数着心跳等尽头（只留空虚）",
-  "你不必救我 别自责（放开手我将化作烟雨）",
-  "这世界 为什么（再继续）",
-  "失去又失去（随风而去）",
-  "我终有一死的结局",
-  "我站在齐胸的水中撒下一张破旧的网，\n起风了 你不躲",
-  "起风了 你不躲\n风就穿过你 吹成只有你懂的口哨",
-  "风就穿过你 吹成只有你懂的口哨\n于是，我便拥了两幅躯壳",
-  "于是，我便拥了两幅躯壳\n一个留给阳光审判，另一个在暴雨中称王。",
-  "一个留给阳光审判，另一个在暴雨中称王。\n你说灯光刺眼 我蹲在旁边辨认每瓶酒的度数",
-  "你说灯光刺眼 我蹲在旁边辨认每瓶酒的度数\n你说看啊 这瓶像不像我们溺死的那片海",
-  "你说看啊 这瓶像不像我们溺死的那片海\n我不会游泳 却也不会淹死在海里",
-  "我不会游泳 却也不会淹死在海里\n我对这镜子看着你。是谁？",
-  "我对这镜子看着你。是谁？\n我接受 我生来就是为了承受这些苦难",
-  "我接受 我生来就是为了承受这些苦难\n但我天真 我以为 每个问题都能找到答案",
-  "但我天真 我以为 每个问题都能找到答案\n没有什么感同身受 我就像死过一百次",
-  "没有什么感同身受 我就像死过一百次\n是在偿还那个孩子，连本带利留给我的全部遗产",
-  "是在偿还那个孩子，连本带利留给我的全部遗产\n我们有过无数次告别在你从不经意的瞬间",
-  "我们有过无数次告别在你从不经意的瞬间\n你们走向通往答案的坦途，我转身步入没有迷底的雾。",
-  "你们走向通往答案的坦途，我转身步入没有迷底的雾。\n你打开瓶盖 我们盯着那些气泡",
-  "你打开瓶盖 我们盯着那些气泡\n他们完成了一场",
-  "他们完成了一场\n精彩的复活",
-  "精彩的复活\n越靠近 越沉默",
-  "越靠近 越沉默\n别期待会落空",
-  "别期待会落空\n拥抱着惊恐拥抱我",
-  "拥抱着惊恐拥抱我\n快淹没我伤口 （伤离去）",
-  "快淹没我伤口 （伤离去）\n数着心跳等尽头（只留空虚）",
-  "数着心跳等尽头（只留空虚）\n你不必救我 别自责（放开手我将化作烟雨）",
-  "你不必救我 别自责（放开手我将化作烟雨）\n这世界 为什么（再继续）",
-  "这世界 为什么（再继续）\n失去又失去（随风而去）",
-  "失去又失去（随风而去）\n我终有一死的结局",
-  "在摧毁自我过程中，总比构建来得更轻松",
-  "我们终究总是迷恋冲动，身陷牢笼",
-  "狂热又轻易占上风，冷静又难抵盲从",
-  "外表越是热烈鲜活，",
-  "内心越是破碎、冷漠、萧瑟",
-  "黑暗吞尽所有光，",
-  "离别时刻放声唱。",
-  "我们不该去比较",
-  "人们受过的煎熬",
-  "明天 我已成废墟的火焰",
-  "燃烧是我唯一的语言",
-  "照亮我 死在路上的明天",
-  "她把重要的事情说了三遍",
-  "最后只剩下我在沉默",
-  "别留下不切实际的期望",
-  "于是我替他继续活着",
-  "捶打胸口模仿心跳",
-  "等待必须赴死的结果",
-  "所有方向全部消失",
-  "你是深渊 深渊是你",
-  "眼眸低垂你是我脸上的泪水",
-  "我看见那些蜷缩的童年",
-  "为何 我的胸口总有炽热在燃烧",
-  "那曾是我追逐自由的骄傲",
-  "在摧毁自我过程中，总比构建来得更轻松\n我们终究总是迷恋冲动，身陷牢笼",
-  "我们终究总是迷恋冲动，身陷牢笼\n狂热又轻易占上风，冷静又难抵盲从",
-  "狂热又轻易占上风，冷静又难抵盲从\n外表越是热烈鲜活，",
-  "外表越是热烈鲜活，\n内心越是破碎、冷漠、萧瑟",
-  "内心越是破碎、冷漠、萧瑟\n黑暗吞尽所有光，",
-  "黑暗吞尽所有光，\n离别时刻放声唱。",
-  "离别时刻放声唱。\n我们不该去比较",
-  "我们不该去比较\n人们受过的煎熬",
-  "人们受过的煎熬\n明天 我已成废墟的火焰",
-  "明天 我已成废墟的火焰\n燃烧是我唯一的语言",
-  "燃烧是我唯一的语言\n照亮我 死在路上的明天",
-  "照亮我 死在路上的明天\n她把重要的事情说了三遍",
-  "她把重要的事情说了三遍\n最后只剩下我在沉默",
-  "最后只剩下我在沉默\n别留下不切实际的期望",
-  "别留下不切实际的期望\n于是我替他继续活着",
-  "于是我替他继续活着\n捶打胸口模仿心跳",
-  "捶打胸口模仿心跳\n等待必须赴死的结果",
-  "等待必须赴死的结果\n所有方向全部消失",
-  "所有方向全部消失\n你是深渊 深渊是你",
-  "你是深渊 深渊是你\n黑暗吞尽所有光，",
-  "人们受过的煎熬\n眼眸低垂你是我脸上的泪水",
-  "眼眸低垂你是我脸上的泪水\n我看见那些蜷缩的童年",
-  "我看见那些蜷缩的童年\n为何 我的胸口总有炽热在燃烧",
-  "为何 我的胸口总有炽热在燃烧\n那曾是我追逐自由的骄傲",
-  "那曾是我追逐自由的骄傲\n明天 我已成废墟的火焰",
-  "困在方寸之间 身边写满不安",
-  "我是个矛盾的个体",
-  "悲观又乐观",
-  "我干涩的声音 我空洞的眼睛",
-  "这无人喝彩的表演",
-  "早就开始了",
-  "NEVER WILL I BREAK AGAIN",
-  "NEVER WILL I FEEL THE PAIN",
-  "你问我什么是永恒",
-  "爱与死亡",
-  "你让我替你自由",
-  "为时已晚",
-  "你好 陌生人",
-  "期待你的回答",
-  "写好时间的车票",
-  "终点在哪",
-  "困在方寸之间 身边写满不安\n我是个矛盾的个体",
-  "我是个矛盾的个体\n悲观又乐观",
-  "悲观又乐观\n我干涩的声音 我空洞的眼睛",
-  "我干涩的声音 我空洞的眼睛\n这无人喝彩的表演",
-  "这无人喝彩的表演\n早就开始了",
-  "早就开始了\nNEVER WILL I BREAK AGAIN",
-  "NEVER WILL I BREAK AGAIN\nNEVER WILL I FEEL THE PAIN",
-  "NEVER WILL I FEEL THE PAIN\nNEVER WILL I BREAK AGAIN",
-  "NEVER WILL I FEEL THE PAIN\n你问我什么是永恒",
-  "你问我什么是永恒\n爱与死亡",
-  "爱与死亡\n你让我替你自由",
-  "你让我替你自由\n为时已晚",
-  "为时已晚\n你好 陌生人",
-  "你好 陌生人\n期待你的回答",
-  "期待你的回答\n写好时间的车票",
-  "写好时间的车票\n终点在哪",
-  "终点在哪\nNEVER WILL I BREAK AGAIN",
-  "过往事 讳莫如深 回忆却挥之不去",
-  "过往事 讳莫如深",
-  "讳莫如深 回忆却挥之不去",
-  "动情时 口若悬河 将恐惧束在高阁",
-  "动情时 口若悬河",
-  "口若悬河 将恐惧束在高阁",
-  "伤心处 怅然若失 哀莫大于心死",
-  "伤心处 怅然若失",
-  "怅然若失 哀莫大于心死",
-  "濒死前 万念俱灰 即堕入无尽长眠",
-  "濒死前 万念俱灰",
-  "万念俱灰 即堕入无尽长眠",
-  "被过去 锁在无尽回忆里",
-  "离不开 回不来（谁曾感到我存在）",
-  "那时光 总是一去不复返",
-  "离不开 回不来",
-  "过往事 讳莫如深 回忆却挥之不去\n动情时 口若悬河 将恐惧束在高阁",
-  "动情时 口若悬河 将恐惧束在高阁\n伤心处 怅然若失 哀莫大于心死",
-  "伤心处 怅然若失 哀莫大于心死\n濒死前 万念俱灰 即堕入无尽长眠",
-  "濒死前 万念俱灰 即堕入无尽长眠\n伤心处 怅然若失 哀莫大于心死",
-  "濒死前 万念俱灰 即堕入无尽长眠\n被过去 锁在无尽回忆里",
-  "被过去 锁在无尽回忆里\n离不开 回不来（谁曾感到我存在）",
-  "离不开 回不来（谁曾感到我存在）\n那时光 总是一去不复返",
-  "那时光 总是一去不复返\n离不开 回不来",
-  "离不开 回不来\n伤心处 怅然若失 哀莫大于心死",
-  "别怕会失去 坚定不移 生死相依",
-  "别怕会失去 坚定不移",
-  "坚定不移 生死相依",
-  "那就让我拉住你颤抖的手",
-  "现实在拍打 信仰崩塌",
-  "蚕食折磨着脆弱的心",
-  "以牙还牙 以眼还眼 绝不被动去接受",
-  "以牙还牙 以眼还眼",
-  "以眼还眼 绝不被动去接受",
-  "一切只是意外 希望走的太快",
-  "来 深呼吸",
-  "在控制你的想法 再将一切全部抹杀",
-  "尽管来",
-  "风浪中感受不安 恐惧中更加勇敢",
-  "在狂风暴雨伫立",
-  "让欲望无限扩张",
-  "看远方无所畏惧",
-  "待我去翻云覆雨",
-  "别害羞 你享受 富足和安逸",
-  "别害羞 你享受",
-  "你享受 富足和安逸",
-  "其实我 无所谓 什么都随你",
-  "其实我 无所谓",
-  "无所谓 什么都随你",
-  "以牙还牙",
-  "别怕会失去 坚定不移 生死相依\n那就让我拉住你颤抖的手",
-  "那就让我拉住你颤抖的手\n现实在拍打 信仰崩塌",
-  "现实在拍打 信仰崩塌\n蚕食折磨着脆弱的心",
-  "蚕食折磨着脆弱的心\n以牙还牙 以眼还眼 绝不被动去接受",
-  "以牙还牙 以眼还眼 绝不被动去接受\n一切只是意外 希望走的太快",
-  "一切只是意外 希望走的太快\n来 深呼吸",
-  "来 深呼吸\n在控制你的想法 再将一切全部抹杀",
-  "在控制你的想法 再将一切全部抹杀\n尽管来",
-  "尽管来\n风浪中感受不安 恐惧中更加勇敢",
-  "风浪中感受不安 恐惧中更加勇敢\n以牙还牙 以眼还眼 绝不被动去接受",
-  "一切只是意外 希望走的太快\n在狂风暴雨伫立",
-  "在狂风暴雨伫立\n让欲望无限扩张",
-  "让欲望无限扩张\n看远方无所畏惧",
-  "看远方无所畏惧\n待我去翻云覆雨",
-  "待我去翻云覆雨\n别怕会失去 坚定不移 生死相依",
-  "蚕食折磨着脆弱的心\n来 深呼吸",
-  "风浪中感受不安 恐惧中更加勇敢\n别害羞 你享受 富足和安逸",
-  "别害羞 你享受 富足和安逸\n其实我 无所谓 什么都随你",
-  "其实我 无所谓 什么都随你\n以牙还牙",
-  "我已再想不起你是谁 那夜我曾往生于此地",
-  "逝者肉身葬于山 千百年来 无人问津",
-  "逝者肉身葬于山 千百年来",
-  "千百年来 无人问津",
-  "我见证无数历史的罪恶 我看见无数盛世在灭亡",
-  "人如海从我身上踏过 血如河在我脚下流淌",
-  "肆意挥霍的年代 绚烂之后的悲哀",
-  "曾经坚定的信仰 希望并非你所想象",
-  "青春 飞速的流逝 时间 从不会停止",
-  "青春 飞速的流逝",
-  "时间 从不会停止",
-  "谁曾觊觎万事仰望 将自己封存变成历史",
-  "再见 曾经莫名的伤感",
-  "继续 无能为力的遗憾",
-  "就让悲伤推动梦想 带我逆向穿行",
-  "当希望代替那忧伤离开了我",
-  "温暖谁的幸福 让我羡慕",
-  "我已再想不起你是谁 那夜我曾往生于此地\n逝者肉身葬于山 千百年来 无人问津",
-  "逝者肉身葬于山 千百年来 无人问津\n我见证无数历史的罪恶 我看见无数盛世在灭亡",
-  "我见证无数历史的罪恶 我看见无数盛世在灭亡\n人如海从我身上踏过 血如河在我脚下流淌",
-  "人如海从我身上踏过 血如河在我脚下流淌\n肆意挥霍的年代 绚烂之后的悲哀",
-  "肆意挥霍的年代 绚烂之后的悲哀\n曾经坚定的信仰 希望并非你所想象",
-  "曾经坚定的信仰 希望并非你所想象\n青春 飞速的流逝 时间 从不会停止",
-  "青春 飞速的流逝 时间 从不会停止\n谁曾觊觎万事仰望 将自己封存变成历史",
-  "谁曾觊觎万事仰望 将自己封存变成历史\n肆意挥霍的年代 绚烂之后的悲哀",
-  "谁曾觊觎万事仰望 将自己封存变成历史\n再见 曾经莫名的伤感",
-  "再见 曾经莫名的伤感\n继续 无能为力的遗憾",
-  "继续 无能为力的遗憾\n就让悲伤推动梦想 带我逆向穿行",
-  "就让悲伤推动梦想 带我逆向穿行\n当希望代替那忧伤离开了我",
-  "当希望代替那忧伤离开了我\n温暖谁的幸福 让我羡慕",
-  "温暖谁的幸福 让我羡慕\n肆意挥霍的年代 绚烂之后的悲哀",
-  "温暖谁的幸福 让我羡慕\n再见 曾经莫名的伤感",
-  "温暖谁的幸福 让我羡慕\n当希望代替那忧伤离开了我",
-  "我 只想再说一次",
-  "因为回忆 是你给我的",
-  "我 只想再试一次",
-  "我对希望 是抱有幻想的",
-  "我只想纵身一跃 去寻找孤独的原因",
-  "逆时针乐曲奏响 伴随我从远方而来",
-  "未知的幻想 原谅我 我太好奇了",
-  "未知的幻想 原谅我",
-  "原谅我 我太好奇了",
-  "和我与星空为伴 一起来拨弄这时间 逆时针",
-  "和我与星空为伴 一起来拨弄这时间",
-  "一起来拨弄这时间 逆时针",
-  "是我对未来的好奇 一缕光芒和新的篇章 漩涡里",
-  "是我对未来的好奇 一缕光芒和新的篇章",
-  "一缕光芒和新的篇章 漩涡里",
-  "可我与回忆 只隔着轻轻一按的距离",
-  "到底什么意义 来不及考虑",
-  "不可理喻 荒谬不堪的 冷暴力",
-  "不可理喻 荒谬不堪的",
-  "荒谬不堪的 冷暴力",
-  "遗憾 失望 悲伤 没关系",
-  "遗憾 失望",
-  "悲伤 没关系",
-  "究竟为何 如此卑微 拿出勇气",
-  "究竟为何 如此卑微",
-  "如此卑微 拿出勇气",
-  "羞涩奔放 如何是好 谁知道",
-  "羞涩奔放 如何是好",
-  "如何是好 谁知道",
-  "无情无义的没有痕迹的无凭无据",
-  "只有你是属于自己 你是你有时也不是你",
-  "回不到原点 等不来结局",
-  "你是你自己 有时也不是你",
-  "我 只想再说一次\n因为回忆 是你给我的",
-  "因为回忆 是你给我的\n我 只想再试一次",
-  "Sorrow",
-  "What do you think the battle of death",
-  "It made me at a loss",
-  "I never be so afraid",
-  "We're ready for fighting in the night",
-  "(day by day)",
-  "(die from sorrow)",
-  "(Do you want to come)",
-  "(Do you want to coooom)",
-  "Sorrow\nIt always makes me cry",
-  "It always makes me cry\nWhat do you think the battle of death",
-  "What do you think the battle of death\nIt made me at a loss",
-  "It made me at a loss\nI never be so afraid",
-  "I never be so afraid\nIt always makes me cry",
-  "I never be so afraid\nWe're ready for fighting in the night",
-  "We're ready for fighting in the night\nWe're ready for fighting in the night",
-  "We're ready for fighting in the night\nIt always makes me cry",
-  "We're ready for fighting in the night\n(day by day)",
-  "(day by day)\n(die from sorrow)",
-  "(die from sorrow)\nWe're ready for fighting in the night",
-  "We're ready for fighting in the night\n(Do you want to come)",
-  "(Do you want to come)\nWe're ready for fighting in the night",
-  "We're ready for fighting in the night\n(Do you want to coooom)",
-  "聆听 那鲜血的流淌 等待宣判",
-  "聆听 那鲜血的流淌",
-  "那鲜血的流淌 等待宣判",
-  "曾经 那熟悉和陌生 已开始分散",
-  "曾经 那熟悉和陌生",
-  "那熟悉和陌生 已开始分散",
-  "注定 与你狭路相逢 会是谁",
-  "注定 与你狭路相逢",
-  "与你狭路相逢 会是谁",
-  "深夜 在熊熊的烈火中 黯然倒下",
-  "深夜 在熊熊的烈火中",
-  "在熊熊的烈火中 黯然倒下",
-  "当真相公之于众 谁在骗局之中",
-  "回忆中 泪如雨下 过去的 回不去",
-  "回忆中 泪如雨下",
-  "过去的 回不去",
-  "苍穹外 日月轮转 心之性 镜中影",
-  "苍穹外 日月轮转",
-  "心之性 镜中影",
-  "当悲伤张开翅膀 笼罩了你天空",
-  "转瞬间 针锋相对 越孤独 越恐惧",
-  "转瞬间 针锋相对",
-  "越孤独 越恐惧",
-  "悲喜时 悄无声息 火焰中 收复失地",
-  "悲喜时 悄无声息",
-  "火焰中 收复失地",
-  "聆听 那鲜血的流淌 等待宣判\n曾经 那熟悉和陌生 已开始分散",
-  "曾经 那熟悉和陌生 已开始分散\n注定 与你狭路相逢 会是谁",
-  "注定 与你狭路相逢 会是谁\n深夜 在熊熊的烈火中 黯然倒下",
-  "当真相公之于众 谁在骗局之中\n回忆中 泪如雨下 过去的 回不去",
-  "回忆中 泪如雨下 过去的 回不去\n苍穹外 日月轮转 心之性 镜中影",
-  "当真相公之于众 谁在骗局之中\n当悲伤张开翅膀 笼罩了你天空",
-  "苍穹外 日月轮转 心之性 镜中影\n转瞬间 针锋相对 越孤独 越恐惧",
-  "转瞬间 针锋相对 越孤独 越恐惧\n悲喜时 悄无声息 火焰中 收复失地",
-  "回忆像夏天般燥热 恶臭一般扑面而来",
-  "身躯在人群中穿梭 在不知不觉中冰冷的融化",
-  "幻想为你挺身而出 我看到有些东西迎风飞扬",
-  "当我唱响这音符的时候 你的名字将是我唯一的信仰",
-  "Here iam",
-  "say a lie",
-  "to you",
-  "control",
-  "恐惧让人措手不及 让抵抗变得没有意义",
-  "让人迷恋的天使的微笑 重置了世界的规则",
-  "回忆像夏天般燥热 恶臭一般扑面而来\n身躯在人群中穿梭 在不知不觉中冰冷的融化",
-  "身躯在人群中穿梭 在不知不觉中冰冷的融化\n幻想为你挺身而出 我看到有些东西迎风飞扬",
-  "幻想为你挺身而出 我看到有些东西迎风飞扬\n当我唱响这音符的时候 你的名字将是我唯一的信仰",
-  "当我唱响这音符的时候 你的名字将是我唯一的信仰\nHere iam",
-  "Here iam\nsay a lie",
-  "say a lie\nto you",
-  "to you\ncontrol",
-  "control\n回忆像夏天般燥热 恶臭一般扑面而来",
-  "身躯在人群中穿梭 在不知不觉中冰冷的融化\n恐惧让人措手不及 让抵抗变得没有意义",
-  "恐惧让人措手不及 让抵抗变得没有意义\n让人迷恋的天使的微笑 重置了世界的规则",
-  "让人迷恋的天使的微笑 重置了世界的规则\nHere iam",
-  "control\nHere iam"
+  {
+    "id": "line-1c3660e89725ddf9",
+    "text": "We are ready for fighting in tonight",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 2
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 3
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 4
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 5
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 14
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 16
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 18
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 20
+      }
+    ]
+  },
+  {
+    "id": "line-a8d01421901f6090",
+    "text": "It always makes me cry",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 6
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 10
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 555
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 559
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 567
+      }
+    ]
+  },
+  {
+    "id": "line-b0b94d70429a5d8e",
+    "text": "What do you think about it",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 7
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 11
+      }
+    ]
+  },
+  {
+    "id": "line-fa734bb8ea014213",
+    "text": "It let me know what to do",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 8
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 12
+      }
+    ]
+  },
+  {
+    "id": "line-2c3221ea530fc7d2",
+    "text": "I have never been so afraid",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 9
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 13
+      }
+    ]
+  },
+  {
+    "id": "line-b37ee43cb00c1e09",
+    "text": "Day by day die from sorrow",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 15
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 19
+      }
+    ]
+  },
+  {
+    "id": "line-580a7e8fb60ed9af",
+    "text": "Do you wanna go",
+    "occurrences": [
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 17
+      },
+      {
+        "document": "Die From Sorrow",
+        "paragraph": 0,
+        "line": 21
+      }
+    ]
+  },
+  {
+    "id": "line-179d02aed8bdccbf",
+    "text": "咆哮的阴影就像宿命 无法摆脱",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 24
+      }
+    ]
+  },
+  {
+    "id": "line-4c01d1c708f16f14",
+    "text": "折断的翅膀在挣扎中 流淌鲜血",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 25
+      }
+    ]
+  },
+  {
+    "id": "line-6ac0e71179164730",
+    "text": "鲜血",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 26
+      }
+    ]
+  },
+  {
+    "id": "line-eb8b270b4703cd1f",
+    "text": "让我的灵魂 在此时在此地 安息吧",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 27
+      }
+    ]
+  },
+  {
+    "id": "line-84ffb3937eb79686",
+    "text": "所知的一切 将永远 被深深埋葬",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 28
+      }
+    ]
+  },
+  {
+    "id": "line-0eee9153d22b8ba4",
+    "text": "喂 别面向东方 我是被选中的人 可以看到真相",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 29
+      }
+    ]
+  },
+  {
+    "id": "line-48f7c7fea0fcd83a",
+    "text": "手中的火光 微弱的照亮",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 30
+      }
+    ]
+  },
+  {
+    "id": "line-5860f5ddae8d3c6b",
+    "text": "是谁偷去日光 以天幕为帐",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 31
+      }
+    ]
+  },
+  {
+    "id": "line-54ae6ae0679b0cc6",
+    "text": "我承受天堂的悲伤和痛苦",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 32
+      },
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 39
+      }
+    ]
+  },
+  {
+    "id": "line-4c8bd7a46b14f564",
+    "text": "也拥有地狱的复杂和愉快",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 33
+      },
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 40
+      }
+    ]
+  },
+  {
+    "id": "line-18c575f2e84c840a",
+    "text": "我在天堂和地狱的交界 找不到方向",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 34
+      },
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 41
+      }
+    ]
+  },
+  {
+    "id": "line-884f0be042229fe4",
+    "text": "黎明前 日落后 为死而生 因生而亡",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 35
+      },
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 42
+      }
+    ]
+  },
+  {
+    "id": "line-26fff7f611880d62",
+    "text": "叹息着 咆哮着 我为复仇而来",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 36
+      },
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 43
+      }
+    ]
+  },
+  {
+    "id": "line-1cca4034bfe4f769",
+    "text": "一切都被语言笼罩着",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 37
+      }
+    ]
+  },
+  {
+    "id": "line-60fb26d8e85000e4",
+    "text": "真相就在你眼前",
+    "occurrences": [
+      {
+        "document": "与我无关",
+        "paragraph": 0,
+        "line": 38
+      }
+    ]
+  },
+  {
+    "id": "line-bbd6cf217d198afa",
+    "text": "思维控制双手 掐住命运的咽喉",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 46
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 48
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 68
+      }
+    ]
+  },
+  {
+    "id": "line-d704106ce76e65fc",
+    "text": "你承载我无限希望 却驶向死亡",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 47
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 49
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 69
+      }
+    ]
+  },
+  {
+    "id": "line-0114b2e26ad90f24",
+    "text": "手中挥舞镰刀 收割残留的青春吧",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 50
+      }
+    ]
+  },
+  {
+    "id": "line-1c80dc7af635c498",
+    "text": "你承载我无限希望 却...却...却...",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 51
+      }
+    ]
+  },
+  {
+    "id": "line-63c8b2d5ba9c02d7",
+    "text": "Let's rock and into your life is only way",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 52
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 54
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 56
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 58
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 60
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 62
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 64
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 66
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 70
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 72
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 74
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 76
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 78
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 80
+      }
+    ]
+  },
+  {
+    "id": "line-782e47b295006862",
+    "text": "You never leave",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 53
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 61
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 71
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 79
+      }
+    ]
+  },
+  {
+    "id": "line-7e849f437b3c7989",
+    "text": "You never You never",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 55
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 63
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 73
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 81
+      }
+    ]
+  },
+  {
+    "id": "line-4a6eb8711a07ff85",
+    "text": "You never leave (we are standing right here)",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 57
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 65
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 75
+      }
+    ]
+  },
+  {
+    "id": "line-fc2cd420bc9882e6",
+    "text": "You never You never leave",
+    "occurrences": [
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 59
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 67
+      },
+      {
+        "document": "九分之五",
+        "paragraph": 0,
+        "line": 77
+      }
+    ]
+  },
+  {
+    "id": "line-aac203b09af5dc24",
+    "text": "在何处 去何方 不得归 心彷徨",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 84
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 99
+      }
+    ]
+  },
+  {
+    "id": "line-e3529692a9cd171e",
+    "text": "放眼望 皆异象 多疯狂 多荒唐",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 85
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 100
+      }
+    ]
+  },
+  {
+    "id": "line-397df9fc2e95854b",
+    "text": "被寂寞吞噬 被恐惧控制",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 86
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 101
+      }
+    ]
+  },
+  {
+    "id": "line-4fbc648a9e7b3c6c",
+    "text": "被谣言中伤 多悲壮多凄凉",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 87
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 102
+      }
+    ]
+  },
+  {
+    "id": "line-8c2dec3b9af3516d",
+    "text": "太奇幻 看眼前世界五彩斑斓",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 88
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 103
+      }
+    ]
+  },
+  {
+    "id": "line-f3146492eb173123",
+    "text": "云雾湾 万籁俱寂 如此安静",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 89
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 104
+      }
+    ]
+  },
+  {
+    "id": "line-541da2bac1a8a18d",
+    "text": "我所见 颠覆我思想扑朔迷离",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 90
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 105
+      }
+    ]
+  },
+  {
+    "id": "line-3d2a2e23d04ee7d6",
+    "text": "危险在平静下隐藏 遮天蔽日汹涌而来",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 91
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 106
+      }
+    ]
+  },
+  {
+    "id": "line-7345ed45ce936fff",
+    "text": "离开",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 92
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 107
+      }
+    ]
+  },
+  {
+    "id": "line-f96cd856531ddda0",
+    "text": "我跟随时光的脚步渐行渐远",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 93
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 108
+      }
+    ]
+  },
+  {
+    "id": "line-abfd579ceea7af98",
+    "text": "就当一切 像从前一样",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 94
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 109
+      }
+    ]
+  },
+  {
+    "id": "line-0757ba66a54a4670",
+    "text": "别紧张 那只是我幼稚的梦",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 95
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 110
+      }
+    ]
+  },
+  {
+    "id": "line-cb0f0bf6e1a3fe45",
+    "text": "欢喜中醒来在欢喜中又睡去",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 96
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 111
+      }
+    ]
+  },
+  {
+    "id": "line-df98603176e60d78",
+    "text": "别说话 我只是被风遮住了眼睛",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 97
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 112
+      }
+    ]
+  },
+  {
+    "id": "line-ae2c990fb4ecfa52",
+    "text": "闭上眼也许我更看得清",
+    "occurrences": [
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 98
+      },
+      {
+        "document": "云雾湾",
+        "paragraph": 0,
+        "line": 113
+      }
+    ]
+  },
+  {
+    "id": "line-c659d6511e8106a5",
+    "text": "Once again for the light to burning",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 0,
+        "line": 116
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 5,
+        "line": 140
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 5,
+        "line": 142
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 153
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 155
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 8,
+        "line": 158
+      }
+    ]
+  },
+  {
+    "id": "line-0e31d5f0949876bd",
+    "text": "Once again for the light",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 0,
+        "line": 117
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 6,
+        "line": 145
+      }
+    ]
+  },
+  {
+    "id": "line-1703ba0d50a0561f",
+    "text": "灾难永无止境",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 1,
+        "line": 119
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 3,
+        "line": 128
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 147
+      }
+    ]
+  },
+  {
+    "id": "line-b851bcf395e5ffbd",
+    "text": "背叛不止谎言如此简单",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 1,
+        "line": 120
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 3,
+        "line": 129
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 148
+      }
+    ]
+  },
+  {
+    "id": "line-12da4dcd87175fe0",
+    "text": "欺骗，你相信谁",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 1,
+        "line": 121
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 3,
+        "line": 130
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 149
+      }
+    ]
+  },
+  {
+    "id": "line-666a94117b1c2891",
+    "text": "妄想追求平衡",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 1,
+        "line": 122
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 3,
+        "line": 131
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 150
+      }
+    ]
+  },
+  {
+    "id": "line-9165f01c898736b7",
+    "text": "出生不像死亡那么绚烂",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 1,
+        "line": 123
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 3,
+        "line": 132
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 151
+      }
+    ]
+  },
+  {
+    "id": "line-08a850512d135635",
+    "text": "蔓延，谁带我离开",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 1,
+        "line": 124
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 3,
+        "line": 133
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 152
+      }
+    ]
+  },
+  {
+    "id": "line-56a4b1b5ba561312",
+    "text": "Once again",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 2,
+        "line": 126
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 9,
+        "line": 161
+      }
+    ]
+  },
+  {
+    "id": "line-fe56516be37b8fd0",
+    "text": "面对灾难",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 4,
+        "line": 135
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 4,
+        "line": 137
+      }
+    ]
+  },
+  {
+    "id": "line-ca6333120296ffe7",
+    "text": "还有谁会不想离开",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 4,
+        "line": 136
+      }
+    ]
+  },
+  {
+    "id": "line-0c4d12d44d31e211",
+    "text": "你相信谁的选择",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 4,
+        "line": 138
+      }
+    ]
+  },
+  {
+    "id": "line-73580b1ca1a60975",
+    "text": "Once again for the light from the darkness",
+    "occurrences": [
+      {
+        "document": "仙女座",
+        "paragraph": 5,
+        "line": 141
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 5,
+        "line": 143
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 154
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 7,
+        "line": 156
+      },
+      {
+        "document": "仙女座",
+        "paragraph": 8,
+        "line": 159
+      }
+    ]
+  },
+  {
+    "id": "line-84c5ae73dd23ef51",
+    "text": "充斥着疑问 无力改变",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 164
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 173
+      }
+    ]
+  },
+  {
+    "id": "line-858ff41fc7b76714",
+    "text": "茫然失措 重蹈覆辙",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 165
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 174
+      }
+    ]
+  },
+  {
+    "id": "line-eb20401be645f035",
+    "text": "当做玩偶的身体 遵照轨迹",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 166
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 175
+      }
+    ]
+  },
+  {
+    "id": "line-7a62c5c7d3a79d6e",
+    "text": "一个傀儡的精神 毫无思想",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 167
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 176
+      }
+    ]
+  },
+  {
+    "id": "line-a5cab1815494eeea",
+    "text": "依然可以不经意间 触摸你内心的柔软",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 168
+      }
+    ]
+  },
+  {
+    "id": "line-31e710f35bf696a0",
+    "text": "但已经没有什么事情 点燃你内心的火焰",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 169
+      }
+    ]
+  },
+  {
+    "id": "line-8a32112b832a78c3",
+    "text": "希望被失望抹杀 榨干灵魂还有什么留下",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 170
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 177
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 182
+      }
+    ]
+  },
+  {
+    "id": "line-39b15045840db2fd",
+    "text": "安静待在我身边 像个哑巴一样不要说话",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 171
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 178
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 183
+      }
+    ]
+  },
+  {
+    "id": "line-286258361de798ee",
+    "text": "我主宰你的梦",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 172
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 179
+      },
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 184
+      }
+    ]
+  },
+  {
+    "id": "line-f26b359526bc4a8d",
+    "text": "遵照轨迹 玩偶的身体",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 180
+      }
+    ]
+  },
+  {
+    "id": "line-43e27149a445b1c1",
+    "text": "毫无思想 傀儡的精神",
+    "occurrences": [
+      {
+        "document": "傀儡精神",
+        "paragraph": 0,
+        "line": 181
+      }
+    ]
+  },
+  {
+    "id": "line-7e0a1ec2e16f3a6a",
+    "text": "眼前尽是幻像 简单粗暴 若要探求未知",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 187
+      }
+    ]
+  },
+  {
+    "id": "line-ddc5682f28e6078d",
+    "text": "放下生命交换 就已失去 企图窥视未知",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 188
+      }
+    ]
+  },
+  {
+    "id": "line-edb1f93878ca70df",
+    "text": "可怜兮兮地探出头来",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 189
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 193
+      }
+    ]
+  },
+  {
+    "id": "line-9cbec6118079896c",
+    "text": "看眼前斗转星移",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 190
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 194
+      }
+    ]
+  },
+  {
+    "id": "line-b9be47b096f91c4a",
+    "text": "眼前尽是幻像 混乱的开始简单粗暴 若要探求未知",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 191
+      }
+    ]
+  },
+  {
+    "id": "line-6e3a6c176025e920",
+    "text": "放下生命交换 未得到就已失去 企图窥视未知",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 192
+      }
+    ]
+  },
+  {
+    "id": "line-f805a202d6e12673",
+    "text": "念念不忘 谁在拼命拉扯 回不去",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 195
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 197
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 205
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 207
+      }
+    ]
+  },
+  {
+    "id": "line-ce8a9899f689c7e2",
+    "text": "朝思暮想 谁在悄悄抹去 我的记忆",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 196
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 206
+      }
+    ]
+  },
+  {
+    "id": "line-ad8394591de895a1",
+    "text": "关于你 谁在悄悄抹去 我的记忆",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 198
+      },
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 208
+      }
+    ]
+  },
+  {
+    "id": "line-bc505cc5754e9a43",
+    "text": "眼前尽是幻像 混乱的开始 简单粗暴",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 199
+      }
+    ]
+  },
+  {
+    "id": "line-554d72670bc637f4",
+    "text": "若要探求未知",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 200
+      }
+    ]
+  },
+  {
+    "id": "line-df9ce97e05c532a5",
+    "text": "放下生命交换 未得到 就已失去",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 201
+      }
+    ]
+  },
+  {
+    "id": "line-bbd83b1dda2e82b9",
+    "text": "企图窥视未知",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 202
+      }
+    ]
+  },
+  {
+    "id": "line-a87955c397c7c7aa",
+    "text": "（杀 杀 杀）跟随他 我多想跟随他的脚步",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 203
+      }
+    ]
+  },
+  {
+    "id": "line-139fd1701e2239b9",
+    "text": "（这 世 界）熟悉又 感觉陌生如此新鲜",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 204
+      }
+    ]
+  },
+  {
+    "id": "line-e562b2885355625d",
+    "text": "日出日落日升",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 209
+      }
+    ]
+  },
+  {
+    "id": "line-d6eb7de536ca6832",
+    "text": "困境伴我前行",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 210
+      }
+    ]
+  },
+  {
+    "id": "line-2ca2626fe0dea958",
+    "text": "仰望皓月千里",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 211
+      }
+    ]
+  },
+  {
+    "id": "line-1d768bff831d34d7",
+    "text": "心有波澜不惊",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 212
+      }
+    ]
+  },
+  {
+    "id": "line-8a6f11cfb4f8c57a",
+    "text": "风起云涌 云开雾散",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 213
+      }
+    ]
+  },
+  {
+    "id": "line-83f2be6bab7583c2",
+    "text": "潮起潮落 仰天长啸",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 214
+      }
+    ]
+  },
+  {
+    "id": "line-ecb717ee8db8f1d1",
+    "text": "气吞山河",
+    "occurrences": [
+      {
+        "document": "在风暴的中央",
+        "paragraph": 0,
+        "line": 215
+      }
+    ]
+  },
+  {
+    "id": "line-8d30eb96b47b7bc8",
+    "text": "作曲 : 郁乐队",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 0,
+        "line": 218
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 0,
+        "line": 483
+      }
+    ]
+  },
+  {
+    "id": "line-63f377bea045bb59",
+    "text": "作词 : 郁乐队",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 0,
+        "line": 219
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 0,
+        "line": 482
+      }
+    ]
+  },
+  {
+    "id": "line-76985aa22042b6cd",
+    "text": "遗憾在孤单时爆发 未消散",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 0,
+        "line": 220
+      }
+    ]
+  },
+  {
+    "id": "line-ce90e596ecb2af3d",
+    "text": "梦中所见已到来",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 0,
+        "line": 221
+      }
+    ]
+  },
+  {
+    "id": "line-8251e11effe19fdb",
+    "text": "惊喜在风浪中 异海 最深处",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 0,
+        "line": 222
+      }
+    ]
+  },
+  {
+    "id": "line-904a91d8c623dc34",
+    "text": "快随我扬帆出海",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 0,
+        "line": 223
+      }
+    ]
+  },
+  {
+    "id": "line-e6b0ebf4be393a6e",
+    "text": "是谁被蒙住双眼 低下头",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 1,
+        "line": 225
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 3,
+        "line": 245
+      }
+    ]
+  },
+  {
+    "id": "line-ed94ef05f6dace5a",
+    "text": "清晰了你的轮廓",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 1,
+        "line": 226
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 3,
+        "line": 246
+      }
+    ]
+  },
+  {
+    "id": "line-bbd8574476d73226",
+    "text": "起航 带你到未知地平线",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 1,
+        "line": 227
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 3,
+        "line": 247
+      }
+    ]
+  },
+  {
+    "id": "line-4803d12564da98dc",
+    "text": "承载我所有的船",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 1,
+        "line": 228
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 3,
+        "line": 248
+      }
+    ]
+  },
+  {
+    "id": "line-26450629a31f5c5f",
+    "text": "荆棘路自开",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 230
+      }
+    ]
+  },
+  {
+    "id": "line-7b4e34de12ebb500",
+    "text": "墨海险往来",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 231
+      }
+    ]
+  },
+  {
+    "id": "line-c5e2e4c344f0a76e",
+    "text": "胜归终有日",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 232
+      }
+    ]
+  },
+  {
+    "id": "line-d087054e8e920bcb",
+    "text": "危途遂若败",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 233
+      }
+    ]
+  },
+  {
+    "id": "line-9b5917424870dcb4",
+    "text": "旖旎映满怀",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 234
+      }
+    ]
+  },
+  {
+    "id": "line-ac8aaee662f4aaac",
+    "text": "魂在尘世埃",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 235
+      }
+    ]
+  },
+  {
+    "id": "line-d18ccaa5c8e889f8",
+    "text": "若 死亡也许只是表象",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 236
+      }
+    ]
+  },
+  {
+    "id": "line-f57e1009e3b4277b",
+    "text": "伤 从此与你天人两望",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 237
+      }
+    ]
+  },
+  {
+    "id": "line-25372b9f2f6239e7",
+    "text": "别为我伤悲",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 238
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 241
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 4,
+        "line": 250
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 4,
+        "line": 253
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 5,
+        "line": 257
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 5,
+        "line": 260
+      }
+    ]
+  },
+  {
+    "id": "line-14fdfb71adca8393",
+    "text": "这乾坤流转",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 239
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 4,
+        "line": 251
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 5,
+        "line": 258
+      }
+    ]
+  },
+  {
+    "id": "line-737fa2847ea62207",
+    "text": "为所欲为",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 240
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 4,
+        "line": 252
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 5,
+        "line": 259
+      }
+    ]
+  },
+  {
+    "id": "line-e053d1f3c3a925d4",
+    "text": "至万象更变",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 242
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 4,
+        "line": 254
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 5,
+        "line": 261
+      }
+    ]
+  },
+  {
+    "id": "line-f55904186bcd0337",
+    "text": "舍我其谁",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 2,
+        "line": 243
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 4,
+        "line": 255
+      },
+      {
+        "document": "异海之王",
+        "paragraph": 5,
+        "line": 262
+      }
+    ]
+  },
+  {
+    "id": "line-03a996a54d75ed3b",
+    "text": "遗憾在孤单时爆发",
+    "occurrences": [
+      {
+        "document": "异海之王",
+        "paragraph": 6,
+        "line": 264
+      }
+    ]
+  },
+  {
+    "id": "line-4d5e6b2ba92daf3c",
+    "text": "寒风凛冽 苍穹之下 马上出发",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 267
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 6,
+        "line": 301
+      }
+    ]
+  },
+  {
+    "id": "line-3d9f5de103e0b2ef",
+    "text": "带上这些诡异的色彩狂奔吧",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 268
+      }
+    ]
+  },
+  {
+    "id": "line-332a4893512958d1",
+    "text": "wow 享受着你欺骗着她",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 269
+      }
+    ]
+  },
+  {
+    "id": "line-8a91118076c9f20f",
+    "text": "给我带来原始的快感 危险而温暖",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 270
+      }
+    ]
+  },
+  {
+    "id": "line-9e3f2fd2f76ac28d",
+    "text": "I don't wanna die he is by my side",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 271
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 273
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 280
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 282
+      }
+    ]
+  },
+  {
+    "id": "line-8ff685e24731f039",
+    "text": "who can give me a hug",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 272
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 281
+      }
+    ]
+  },
+  {
+    "id": "line-7e38607c907112d2",
+    "text": "sadness trip lets go",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 0,
+        "line": 274
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 283
+      }
+    ]
+  },
+  {
+    "id": "line-1c1288d2459068a0",
+    "text": "呼吸急促 加快脚步 交汇之处",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 276
+      }
+    ]
+  },
+  {
+    "id": "line-9bacb66a06b2dbf2",
+    "text": "无尽的欲望在勾引着你",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 277
+      }
+    ]
+  },
+  {
+    "id": "line-2da5a87a894f36d8",
+    "text": "wow 眼前的你心里的她",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 278
+      }
+    ]
+  },
+  {
+    "id": "line-573bb2c719209395",
+    "text": "让你感受悲伤的力量 苍老而孤独",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 1,
+        "line": 279
+      }
+    ]
+  },
+  {
+    "id": "line-cc96303f417f39b3",
+    "text": "WOO This is not my fault Finally I do",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 2,
+        "line": 285
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 3,
+        "line": 289
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 4,
+        "line": 293
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 5,
+        "line": 297
+      }
+    ]
+  },
+  {
+    "id": "line-970bb9a6f8f839f2",
+    "text": "Everything I can",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 2,
+        "line": 286
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 3,
+        "line": 290
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 4,
+        "line": 294
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 5,
+        "line": 298
+      }
+    ]
+  },
+  {
+    "id": "line-44390bd2f5aacfa2",
+    "text": "Finally I said the sadness trip is like a SHIT! SHIT! SHIT!",
+    "occurrences": [
+      {
+        "document": "悲伤之旅",
+        "paragraph": 2,
+        "line": 287
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 3,
+        "line": 291
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 4,
+        "line": 295
+      },
+      {
+        "document": "悲伤之旅",
+        "paragraph": 5,
+        "line": 299
+      }
+    ]
+  },
+  {
+    "id": "line-44a6c9186b3bac49",
+    "text": "我站在齐胸的水中撒下一张破旧的网，",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 304
+      }
+    ]
+  },
+  {
+    "id": "line-8e839d3a5ede3645",
+    "text": "起风了 你不躲",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 305
+      }
+    ]
+  },
+  {
+    "id": "line-ff09725bf687a1ba",
+    "text": "风就穿过你 吹成只有你懂的口哨",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 306
+      }
+    ]
+  },
+  {
+    "id": "line-d3eb5782455f40e1",
+    "text": "于是，我便拥了两幅躯壳",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 307
+      }
+    ]
+  },
+  {
+    "id": "line-50727aa0ecaf5b50",
+    "text": "一个留给阳光审判，另一个在暴雨中称王。",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 308
+      }
+    ]
+  },
+  {
+    "id": "line-16f5e32c942ee076",
+    "text": "你说灯光刺眼 我蹲在旁边辨认每瓶酒的度数",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 309
+      }
+    ]
+  },
+  {
+    "id": "line-6849e8e175a4f7f9",
+    "text": "你说看啊 这瓶像不像我们溺死的那片海",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 310
+      }
+    ]
+  },
+  {
+    "id": "line-93323003426409ee",
+    "text": "我不会游泳 却也不会淹死在海里",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 311
+      }
+    ]
+  },
+  {
+    "id": "line-cf9c9041575d4324",
+    "text": "我对这镜子看着你。是谁？",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 312
+      }
+    ]
+  },
+  {
+    "id": "line-8b8cb48db8206149",
+    "text": "我接受 我生来就是为了承受这些苦难",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 313
+      }
+    ]
+  },
+  {
+    "id": "line-a285955bd888a6da",
+    "text": "但我天真 我以为 每个问题都能找到答案",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 314
+      }
+    ]
+  },
+  {
+    "id": "line-70c14996a6d8d3c4",
+    "text": "没有什么感同身受 我就像死过一百次",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 315
+      }
+    ]
+  },
+  {
+    "id": "line-f99946fad7c3db95",
+    "text": "是在偿还那个孩子，连本带利留给我的全部遗产",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 316
+      }
+    ]
+  },
+  {
+    "id": "line-70ad85ade5abc89e",
+    "text": "我们有过无数次告别在你从不经意的瞬间",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 317
+      }
+    ]
+  },
+  {
+    "id": "line-6794da4e56e6ff6b",
+    "text": "你们走向通往答案的坦途，我转身步入没有迷底的雾。",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 318
+      }
+    ]
+  },
+  {
+    "id": "line-4522b04f4af909f9",
+    "text": "你打开瓶盖 我们盯着那些气泡",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 319
+      }
+    ]
+  },
+  {
+    "id": "line-46422ad550d55bb0",
+    "text": "他们完成了一场",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 320
+      }
+    ]
+  },
+  {
+    "id": "line-7c96d893a765ebea",
+    "text": "精彩的复活",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 321
+      }
+    ]
+  },
+  {
+    "id": "line-ac16f3c7ed91b5e2",
+    "text": "越靠近 越沉默",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 322
+      }
+    ]
+  },
+  {
+    "id": "line-fe7855b8cdece785",
+    "text": "别期待会落空",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 323
+      }
+    ]
+  },
+  {
+    "id": "line-302b9b7ee02b7b66",
+    "text": "拥抱着惊恐拥抱我",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 324
+      }
+    ]
+  },
+  {
+    "id": "line-7dab132ada114926",
+    "text": "快淹没我伤口 （伤离去）",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 325
+      }
+    ]
+  },
+  {
+    "id": "line-b969d7aeb6601fac",
+    "text": "数着心跳等尽头（只留空虚）",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 326
+      }
+    ]
+  },
+  {
+    "id": "line-09e465c43c108ed2",
+    "text": "你不必救我 别自责（放开手我将化作烟雨）",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 327
+      }
+    ]
+  },
+  {
+    "id": "line-342b2f538480a466",
+    "text": "这世界 为什么（再继续）",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 328
+      }
+    ]
+  },
+  {
+    "id": "line-ced596b2072e4560",
+    "text": "失去又失去（随风而去）",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 329
+      }
+    ]
+  },
+  {
+    "id": "line-004cf5bbdca3bc8a",
+    "text": "我终有一死的结局",
+    "occurrences": [
+      {
+        "document": "惊恐症",
+        "paragraph": 0,
+        "line": 330
+      }
+    ]
+  },
+  {
+    "id": "line-e567619cbac853fd",
+    "text": "在摧毁自我过程中，总比构建来得更轻松",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 333
+      }
+    ]
+  },
+  {
+    "id": "line-eab57d6d7827fe81",
+    "text": "我们终究总是迷恋冲动，身陷牢笼",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 334
+      }
+    ]
+  },
+  {
+    "id": "line-b30d521f1101ba5d",
+    "text": "狂热又轻易占上风，冷静又难抵盲从",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 335
+      }
+    ]
+  },
+  {
+    "id": "line-d10d37e3e3413c76",
+    "text": "外表越是热烈鲜活，",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 336
+      }
+    ]
+  },
+  {
+    "id": "line-01c1744341b7224a",
+    "text": "内心越是破碎、冷漠、萧瑟",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 337
+      }
+    ]
+  },
+  {
+    "id": "line-c75f240132be8b18",
+    "text": "黑暗吞尽所有光，",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 338
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 353
+      }
+    ]
+  },
+  {
+    "id": "line-e8629de104f42e54",
+    "text": "离别时刻放声唱。",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 339
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 354
+      }
+    ]
+  },
+  {
+    "id": "line-0db2460df1ab50ca",
+    "text": "我们不该去比较",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 340
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 355
+      }
+    ]
+  },
+  {
+    "id": "line-12ee34a6821f4952",
+    "text": "人们受过的煎熬",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 341
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 356
+      }
+    ]
+  },
+  {
+    "id": "line-aa7c25489539d85d",
+    "text": "明天 我已成废墟的火焰",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 342
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 361
+      }
+    ]
+  },
+  {
+    "id": "line-8cb8b4629fb2c9d3",
+    "text": "燃烧是我唯一的语言",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 343
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 362
+      }
+    ]
+  },
+  {
+    "id": "line-5d94b41d734034fb",
+    "text": "照亮我 死在路上的明天",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 344
+      },
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 363
+      }
+    ]
+  },
+  {
+    "id": "line-8ebb8a9486672a2e",
+    "text": "她把重要的事情说了三遍",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 345
+      }
+    ]
+  },
+  {
+    "id": "line-d13f1549aa6c509f",
+    "text": "最后只剩下我在沉默",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 346
+      }
+    ]
+  },
+  {
+    "id": "line-81291d62947f38d1",
+    "text": "别留下不切实际的期望",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 347
+      }
+    ]
+  },
+  {
+    "id": "line-63a7bd550c0f2a34",
+    "text": "于是我替他继续活着",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 348
+      }
+    ]
+  },
+  {
+    "id": "line-2fc2efe69345a097",
+    "text": "捶打胸口模仿心跳",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 349
+      }
+    ]
+  },
+  {
+    "id": "line-b1657b458c52864e",
+    "text": "等待必须赴死的结果",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 350
+      }
+    ]
+  },
+  {
+    "id": "line-2616d7959fb90ce2",
+    "text": "所有方向全部消失",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 351
+      }
+    ]
+  },
+  {
+    "id": "line-7e1606ce0c593d70",
+    "text": "你是深渊 深渊是你",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 352
+      }
+    ]
+  },
+  {
+    "id": "line-f97faa46b3d9b0d4",
+    "text": "眼眸低垂你是我脸上的泪水",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 357
+      }
+    ]
+  },
+  {
+    "id": "line-c6d47b18d7adba19",
+    "text": "我看见那些蜷缩的童年",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 358
+      }
+    ]
+  },
+  {
+    "id": "line-577235bafef616c3",
+    "text": "为何 我的胸口总有炽热在燃烧",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 359
+      }
+    ]
+  },
+  {
+    "id": "line-9cfd9d303b5d266a",
+    "text": "那曾是我追逐自由的骄傲",
+    "occurrences": [
+      {
+        "document": "斑希的眼泪",
+        "paragraph": 0,
+        "line": 360
+      }
+    ]
+  },
+  {
+    "id": "line-57a8dbc27d1e5242",
+    "text": "困在方寸之间 身边写满不安",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 366
+      }
+    ]
+  },
+  {
+    "id": "line-b16cbc04df911b7b",
+    "text": "我是个矛盾的个体",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 367
+      }
+    ]
+  },
+  {
+    "id": "line-0deece6563891571",
+    "text": "悲观又乐观",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 368
+      }
+    ]
+  },
+  {
+    "id": "line-e51a6e931df6d4d1",
+    "text": "我干涩的声音 我空洞的眼睛",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 369
+      }
+    ]
+  },
+  {
+    "id": "line-6c1678bfaa72bbbb",
+    "text": "这无人喝彩的表演",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 370
+      }
+    ]
+  },
+  {
+    "id": "line-517de7a8a274a0b1",
+    "text": "早就开始了",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 371
+      }
+    ]
+  },
+  {
+    "id": "line-d61f84c7e7967cc5",
+    "text": "NEVER WILL I BREAK AGAIN",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 372
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 374
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 384
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 386
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 388
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 390
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 392
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 394
+      }
+    ]
+  },
+  {
+    "id": "line-9e3b5f309dbb0f56",
+    "text": "NEVER WILL I FEEL THE PAIN",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 373
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 375
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 385
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 387
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 389
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 391
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 393
+      },
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 395
+      }
+    ]
+  },
+  {
+    "id": "line-22f4d9e32344f1ea",
+    "text": "你问我什么是永恒",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 376
+      }
+    ]
+  },
+  {
+    "id": "line-75832ddf35fed874",
+    "text": "爱与死亡",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 377
+      }
+    ]
+  },
+  {
+    "id": "line-f8187df6e662cab7",
+    "text": "你让我替你自由",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 378
+      }
+    ]
+  },
+  {
+    "id": "line-58cbdeb4b45af888",
+    "text": "为时已晚",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 379
+      }
+    ]
+  },
+  {
+    "id": "line-1059620ab290b62e",
+    "text": "你好 陌生人",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 380
+      }
+    ]
+  },
+  {
+    "id": "line-bb9fa6e80d96fdac",
+    "text": "期待你的回答",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 381
+      }
+    ]
+  },
+  {
+    "id": "line-054c486493d46cca",
+    "text": "写好时间的车票",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 382
+      }
+    ]
+  },
+  {
+    "id": "line-aa87e7db57dae7d3",
+    "text": "终点在哪",
+    "occurrences": [
+      {
+        "document": "无人之境",
+        "paragraph": 0,
+        "line": 383
+      }
+    ]
+  },
+  {
+    "id": "line-694d17344d15210e",
+    "text": "过往事 讳莫如深 回忆却挥之不去",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 398
+      }
+    ]
+  },
+  {
+    "id": "line-620db7aea32d180f",
+    "text": "动情时 口若悬河 将恐惧束在高阁",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 399
+      }
+    ]
+  },
+  {
+    "id": "line-d40eaa2f058bfc1c",
+    "text": "伤心处 怅然若失 哀莫大于心死",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 400
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 402
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 408
+      }
+    ]
+  },
+  {
+    "id": "line-349736a1245d63a9",
+    "text": "濒死前 万念俱灰 即堕入无尽长眠",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 401
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 403
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 409
+      }
+    ]
+  },
+  {
+    "id": "line-2c05a74cd16bcd05",
+    "text": "被过去 锁在无尽回忆里",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 404
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 410
+      }
+    ]
+  },
+  {
+    "id": "line-3b32c3a389ff0726",
+    "text": "离不开 回不来（谁曾感到我存在）",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 405
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 411
+      }
+    ]
+  },
+  {
+    "id": "line-7d12c4e079d81224",
+    "text": "那时光 总是一去不复返",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 406
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 412
+      }
+    ]
+  },
+  {
+    "id": "line-1a23eafbef46078d",
+    "text": "离不开 回不来",
+    "occurrences": [
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 407
+      },
+      {
+        "document": "永恒的守望",
+        "paragraph": 0,
+        "line": 413
+      }
+    ]
+  },
+  {
+    "id": "line-2eb1f8be20b86982",
+    "text": "别怕会失去 坚定不移 生死相依",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 416
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 432
+      }
+    ]
+  },
+  {
+    "id": "line-757a46d8f9655cb3",
+    "text": "那就让我拉住你颤抖的手",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 417
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 433
+      }
+    ]
+  },
+  {
+    "id": "line-fc0c402ca7453cd9",
+    "text": "现实在拍打 信仰崩塌",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 418
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 434
+      }
+    ]
+  },
+  {
+    "id": "line-39a791a57008c2ca",
+    "text": "蚕食折磨着脆弱的心",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 419
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 435
+      }
+    ]
+  },
+  {
+    "id": "line-4792dceeb2a5f9c9",
+    "text": "以牙还牙 以眼还眼 绝不被动去接受",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 420
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 426
+      }
+    ]
+  },
+  {
+    "id": "line-a8602da7977e868f",
+    "text": "一切只是意外 希望走的太快",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 421
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 427
+      }
+    ]
+  },
+  {
+    "id": "line-6295ad7055d03bc5",
+    "text": "来 深呼吸",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 422
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 436
+      }
+    ]
+  },
+  {
+    "id": "line-dfc48b4040e92310",
+    "text": "在控制你的想法 再将一切全部抹杀",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 423
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 437
+      }
+    ]
+  },
+  {
+    "id": "line-e977f05b2025c98b",
+    "text": "尽管来",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 424
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 438
+      }
+    ]
+  },
+  {
+    "id": "line-78358bbb9da56b55",
+    "text": "风浪中感受不安 恐惧中更加勇敢",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 425
+      },
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 439
+      }
+    ]
+  },
+  {
+    "id": "line-8635673982400c47",
+    "text": "在狂风暴雨伫立",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 428
+      }
+    ]
+  },
+  {
+    "id": "line-9a44f35000cde50d",
+    "text": "让欲望无限扩张",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 429
+      }
+    ]
+  },
+  {
+    "id": "line-70805711093b6fd7",
+    "text": "看远方无所畏惧",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 430
+      }
+    ]
+  },
+  {
+    "id": "line-f88cbc9598540574",
+    "text": "待我去翻云覆雨",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 431
+      }
+    ]
+  },
+  {
+    "id": "line-972850c5eea9d445",
+    "text": "别害羞 你享受 富足和安逸",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 440
+      }
+    ]
+  },
+  {
+    "id": "line-1845b791983c4ee5",
+    "text": "其实我 无所谓 什么都随你",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 441
+      }
+    ]
+  },
+  {
+    "id": "line-0c5e01f3d0698700",
+    "text": "以牙还牙",
+    "occurrences": [
+      {
+        "document": "轮回之海",
+        "paragraph": 0,
+        "line": 442
+      }
+    ]
+  },
+  {
+    "id": "line-0009909fc5f3a285",
+    "text": "我已再想不起你是谁 那夜我曾往生于此地",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 445
+      }
+    ]
+  },
+  {
+    "id": "line-3e925bd7a34b0645",
+    "text": "逝者肉身葬于山 千百年来 无人问津",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 446
+      }
+    ]
+  },
+  {
+    "id": "line-252784757b0a330c",
+    "text": "我见证无数历史的罪恶 我看见无数盛世在灭亡",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 447
+      }
+    ]
+  },
+  {
+    "id": "line-183ec231ec7728fd",
+    "text": "人如海从我身上踏过 血如河在我脚下流淌",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 448
+      }
+    ]
+  },
+  {
+    "id": "line-efbd57ecf717bc35",
+    "text": "肆意挥霍的年代 绚烂之后的悲哀",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 449
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 453
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 462
+      }
+    ]
+  },
+  {
+    "id": "line-272ef5dcf46611d3",
+    "text": "曾经坚定的信仰 希望并非你所想象",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 450
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 454
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 463
+      }
+    ]
+  },
+  {
+    "id": "line-a509d36975d107a6",
+    "text": "青春 飞速的流逝 时间 从不会停止",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 451
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 455
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 464
+      }
+    ]
+  },
+  {
+    "id": "line-576f1127d82ba4e7",
+    "text": "谁曾觊觎万事仰望 将自己封存变成历史",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 452
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 456
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 465
+      }
+    ]
+  },
+  {
+    "id": "line-1d95cb6a76e3e49c",
+    "text": "再见 曾经莫名的伤感",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 457
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 466
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 471
+      }
+    ]
+  },
+  {
+    "id": "line-840cbc7cbb6d7a88",
+    "text": "继续 无能为力的遗憾",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 458
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 467
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 472
+      }
+    ]
+  },
+  {
+    "id": "line-3cad582905248b8c",
+    "text": "就让悲伤推动梦想 带我逆向穿行",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 459
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 468
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 473
+      }
+    ]
+  },
+  {
+    "id": "line-0c875821c84433fa",
+    "text": "当希望代替那忧伤离开了我",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 460
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 469
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 474
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 476
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 478
+      }
+    ]
+  },
+  {
+    "id": "line-298997fe6ca89b3c",
+    "text": "温暖谁的幸福 让我羡慕",
+    "occurrences": [
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 461
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 470
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 475
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 477
+      },
+      {
+        "document": "逆向穿行",
+        "paragraph": 0,
+        "line": 479
+      }
+    ]
+  },
+  {
+    "id": "line-8edf87ceddbf962c",
+    "text": "编曲：郁乐队",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 1,
+        "line": 485
+      }
+    ]
+  },
+  {
+    "id": "line-621b2f8ec62eddb1",
+    "text": "我 只想再说一次",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 2,
+        "line": 487
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 19,
+        "line": 521
+      }
+    ]
+  },
+  {
+    "id": "line-a4cfb2c0b6825151",
+    "text": "因为回忆 是你给我的",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 3,
+        "line": 489
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 19,
+        "line": 522
+      }
+    ]
+  },
+  {
+    "id": "line-2e477ec6dc74ee2a",
+    "text": "我 只想再试一次",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 4,
+        "line": 491
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 19,
+        "line": 523
+      }
+    ]
+  },
+  {
+    "id": "line-3b1271b23af6f55f",
+    "text": "我对希望 是抱有幻想的",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 5,
+        "line": 493
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 20,
+        "line": 525
+      }
+    ]
+  },
+  {
+    "id": "line-d903c7d5796490e4",
+    "text": "我只想纵身一跃 去寻找孤独的原因",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 6,
+        "line": 495
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 21,
+        "line": 527
+      }
+    ]
+  },
+  {
+    "id": "line-59b3aae8c39449cd",
+    "text": "逆时针乐曲奏响 伴随我从远方而来",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 7,
+        "line": 497
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 22,
+        "line": 529
+      }
+    ]
+  },
+  {
+    "id": "line-290b9b581a2ede25",
+    "text": "未知的幻想 原谅我 我太好奇了",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 8,
+        "line": 499
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 23,
+        "line": 531
+      }
+    ]
+  },
+  {
+    "id": "line-68811102ed3c2a18",
+    "text": "和我与星空为伴 一起来拨弄这时间 逆时针",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 9,
+        "line": 501
+      }
+    ]
+  },
+  {
+    "id": "line-877ee0dad61741ab",
+    "text": "是我对未来的好奇 一缕光芒和新的篇章 漩涡里",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 10,
+        "line": 503
+      }
+    ]
+  },
+  {
+    "id": "line-a7f71ac123e2c514",
+    "text": "可我与回忆 只隔着轻轻一按的距离",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 11,
+        "line": 505
+      }
+    ]
+  },
+  {
+    "id": "line-522d1bd26641ecf7",
+    "text": "到底什么意义 来不及考虑",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 12,
+        "line": 507
+      }
+    ]
+  },
+  {
+    "id": "line-e61fbad76e77d5cb",
+    "text": "不可理喻 荒谬不堪的 冷暴力",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 13,
+        "line": 509
+      }
+    ]
+  },
+  {
+    "id": "line-1839d303a00d96c5",
+    "text": "遗憾 失望 悲伤 没关系",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 14,
+        "line": 511
+      }
+    ]
+  },
+  {
+    "id": "line-7cb3a5273a03bad0",
+    "text": "究竟为何 如此卑微 拿出勇气",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 15,
+        "line": 513
+      }
+    ]
+  },
+  {
+    "id": "line-b15b9b14e9cd376b",
+    "text": "羞涩奔放 如何是好 谁知道",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 16,
+        "line": 515
+      }
+    ]
+  },
+  {
+    "id": "line-03444a6315543f02",
+    "text": "无情无义的没有痕迹的无凭无据",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 17,
+        "line": 517
+      }
+    ]
+  },
+  {
+    "id": "line-fdfc64a8eed04414",
+    "text": "只有你是属于自己 你是你有时也不是你",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 18,
+        "line": 519
+      }
+    ]
+  },
+  {
+    "id": "line-3b86ca3b6c3fbd1d",
+    "text": "回不到原点 等不来结局",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 24,
+        "line": 533
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 26,
+        "line": 537
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 28,
+        "line": 541
+      }
+    ]
+  },
+  {
+    "id": "line-8bf101478a42eaa9",
+    "text": "你是你自己 有时也不是你",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 25,
+        "line": 535
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 27,
+        "line": 539
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 29,
+        "line": 543
+      },
+      {
+        "document": "逆时针旋转",
+        "paragraph": 30,
+        "line": 545
+      }
+    ]
+  },
+  {
+    "id": "line-b64f53750c9d384f",
+    "text": "录音棚：Woo Sound Studio",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 31,
+        "line": 547
+      }
+    ]
+  },
+  {
+    "id": "line-6619495a0d913b74",
+    "text": "录音师：孔德珮",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 32,
+        "line": 549
+      }
+    ]
+  },
+  {
+    "id": "line-66e9602149809513",
+    "text": "混音师：孔德珮",
+    "occurrences": [
+      {
+        "document": "逆时针旋转",
+        "paragraph": 33,
+        "line": 551
+      }
+    ]
+  },
+  {
+    "id": "line-871c47deb97b644a",
+    "text": "Sorrow",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 554
+      }
+    ]
+  },
+  {
+    "id": "line-f19403fcf8303c9a",
+    "text": "What do you think the battle of death",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 556
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 560
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 568
+      }
+    ]
+  },
+  {
+    "id": "line-cb9dae6ec8c2a0fb",
+    "text": "It made me at a loss",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 557
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 561
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 569
+      }
+    ]
+  },
+  {
+    "id": "line-c3a6453700357c1a",
+    "text": "I never be so afraid",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 558
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 562
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 570
+      }
+    ]
+  },
+  {
+    "id": "line-4c4dbdb8b3da41cb",
+    "text": "We're ready for fighting in the night",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 563
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 564
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 565
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 566
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 571
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 574
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 576
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 579
+      }
+    ]
+  },
+  {
+    "id": "line-4440eb59c553f76b",
+    "text": "(day by day)",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 572
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 577
+      }
+    ]
+  },
+  {
+    "id": "line-ac09c8d4546b0e63",
+    "text": "(die from sorrow)",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 573
+      },
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 578
+      }
+    ]
+  },
+  {
+    "id": "line-3dd1ef8ee1809223",
+    "text": "(Do you want to come)",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 575
+      }
+    ]
+  },
+  {
+    "id": "line-9b7b8ce1b6da8aee",
+    "text": "(Do you want to coooom)",
+    "occurrences": [
+      {
+        "document": "郁郁而终",
+        "paragraph": 0,
+        "line": 580
+      }
+    ]
+  },
+  {
+    "id": "line-8fa4c122f30b80e0",
+    "text": "聆听 那鲜血的流淌 等待宣判",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 0,
+        "line": 583
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 1,
+        "line": 588
+      }
+    ]
+  },
+  {
+    "id": "line-16daaa2d73f7a4dd",
+    "text": "曾经 那熟悉和陌生 已开始分散",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 0,
+        "line": 584
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 1,
+        "line": 589
+      }
+    ]
+  },
+  {
+    "id": "line-2c540b08c123ca90",
+    "text": "注定 与你狭路相逢 会是谁",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 0,
+        "line": 585
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 1,
+        "line": 590
+      }
+    ]
+  },
+  {
+    "id": "line-fc59c73caf5df0cd",
+    "text": "深夜 在熊熊的烈火中 黯然倒下",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 0,
+        "line": 586
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 1,
+        "line": 591
+      }
+    ]
+  },
+  {
+    "id": "line-2b2cdeb0629805e2",
+    "text": "当真相公之于众 谁在骗局之中",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 2,
+        "line": 593
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 3,
+        "line": 597
+      }
+    ]
+  },
+  {
+    "id": "line-124dc0b74523092e",
+    "text": "回忆中 泪如雨下 过去的 回不去",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 2,
+        "line": 594
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 4,
+        "line": 600
+      }
+    ]
+  },
+  {
+    "id": "line-7829c33cb2eeb3e2",
+    "text": "苍穹外 日月轮转 心之性 镜中影",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 2,
+        "line": 595
+      },
+      {
+        "document": "针锋相对",
+        "paragraph": 4,
+        "line": 601
+      }
+    ]
+  },
+  {
+    "id": "line-99fb9ae545849eda",
+    "text": "当悲伤张开翅膀 笼罩了你天空",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 3,
+        "line": 598
+      }
+    ]
+  },
+  {
+    "id": "line-c7f8976fecc88e42",
+    "text": "转瞬间 针锋相对 越孤独 越恐惧",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 4,
+        "line": 602
+      }
+    ]
+  },
+  {
+    "id": "line-820b8b2988fa6b91",
+    "text": "悲喜时 悄无声息 火焰中 收复失地",
+    "occurrences": [
+      {
+        "document": "针锋相对",
+        "paragraph": 4,
+        "line": 603
+      }
+    ]
+  },
+  {
+    "id": "line-59dc468e5f0f5d5d",
+    "text": "回忆像夏天般燥热 恶臭一般扑面而来",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 606
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 614
+      }
+    ]
+  },
+  {
+    "id": "line-41a53dfa534d5acb",
+    "text": "身躯在人群中穿梭 在不知不觉中冰冷的融化",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 607
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 615
+      }
+    ]
+  },
+  {
+    "id": "line-405124f387e92c8e",
+    "text": "幻想为你挺身而出 我看到有些东西迎风飞扬",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 608
+      }
+    ]
+  },
+  {
+    "id": "line-f7c2e61604030a03",
+    "text": "当我唱响这音符的时候 你的名字将是我唯一的信仰",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 609
+      }
+    ]
+  },
+  {
+    "id": "line-cda250982c5d9bb6",
+    "text": "Here iam",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 610
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 618
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 622
+      }
+    ]
+  },
+  {
+    "id": "line-46b3367e6e2a40d0",
+    "text": "say a lie",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 611
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 619
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 623
+      }
+    ]
+  },
+  {
+    "id": "line-32b4d46f1a1051af",
+    "text": "to you",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 612
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 620
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 624
+      }
+    ]
+  },
+  {
+    "id": "line-0fcd568a5cb9bdb4",
+    "text": "control",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 613
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 621
+      },
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 625
+      }
+    ]
+  },
+  {
+    "id": "line-d2b08eeb0a5388a2",
+    "text": "恐惧让人措手不及 让抵抗变得没有意义",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 616
+      }
+    ]
+  },
+  {
+    "id": "line-b4d78e484c71c4cb",
+    "text": "让人迷恋的天使的微笑 重置了世界的规则",
+    "occurrences": [
+      {
+        "document": "随行如影",
+        "paragraph": 0,
+        "line": 617
+      }
+    ]
+  }
 ]

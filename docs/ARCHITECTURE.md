@@ -1,54 +1,41 @@
 # 架构
 
-## 两条显式管线
+## 生产与运行两条管线
 
 ```text
-/yulu:create-character
-    → 先停用当前角色（普通配置模式）
-    → 读取用户原文 → agent 灵活提议片段 → 快速来源核验
-    → 原文与 corpus.json 存入项目 → 渲染自包含 Skill
+create-character
+  → 收集对象类型、传记/访谈/用户设定、语言原文
+  → evidence-add 自包含保存 → persona 草案 → 用户确认
+  → persona-set --confirm
+  → 原子语料规范化/来源校验 → 发布自包含 Skill
 
-/yulu:<id> [chat|translate|strict]
-    → 显式激活/切换模式 → 当前会话持续注入规则
-    → Stop：脚本快速通道 → 未决项交给 LLM 语义复核
-
-/yulu:<id> help → 展示 README，不退出
-/yulu:<id> off  → 显式退出，恢复普通 agent
+角色显式唤起
+  → 保存会话模式 → 每轮注入已确认 persona + 最多 6 条相关语言样例
+  → 主 agent 第一人称扮演 → off 退出
 ```
 
-没有隐式唤起、普通文本模式切换或隐式退出。`create-character` 必须显式触发，并在开始吸收前退出角色。
+creator 和运行时共享 `skills/shared/scripts/yulu.py` 的 schema、persona 渲染与发布函数，不分别维护不兼容的产物。
 
-## 资料与自包含性
+## 人格与证据
 
-`characters/<id>/source.txt` 保存完整原文；`corpus.json` 保存可跨原行、也可在原行内部的片段；`policy.md` 描述三种模式；`character.json` 保存身份、默认 `chat` 和回退片段 ID。
+`character.json` schema v3 指向 `persona.json`、原文、原子语料和模式规则。人格七维条目包含 `source_type/source_ref/confidence/status`；真人事实与作品叙述者/语言风格分开。推断不能直接标 confirmed，未知维度为空。
 
-原文换行不构成切分限制。切分由 agent 根据语义提议，脚本核验空白归一化后来自原文连续内容。导入后 `source.txt`、`corpus.json` 和脚本全部复制到 `skills/<id>/`，运行不再依赖原始外部目录。
+`persona.md` 只渲染 confirmed，草案用于用户修订。`interaction_state` 单独保存经确认的互动事实与偏好，不自动记录模型臆测。证据原文件只进 `characters/<id>/evidence/`，不进运行包。
 
-`corpus.json` 是字符串数组，允许片段内换行，避免把原行格式误当角色边界。非空片段库必须指定库内回退；空库不可激活。导入在暂存目录完成核验，再交换源文件与角色包。
+## 语料分层
 
-## 会话状态
+- `source.txt` 是不可变原文。
+- `corpus.json` 是原子语言单元：每个唯一非空原文行一个稳定 ID，歌曲/段落/行号组成 occurrence 列表。
+- 重复副歌及平行出现只保留一个单元；组合不是新库存。导入时输入组合必须是原文连续行，运行时不保存所有邻接排列。
+- 结构化位置验证代替全空白归一化。旧 `segments.json` 可留作审计，但不作为运行时输入。
+- 运行时通过确定性关键词/二元片段评分检索少量样例，无匹配不引用。无向量库、无额外模型请求。
 
-Skill 设置 `disable-model-invocation: true`。显式调用时动态 shell 执行 `activate/off/help`，使用 `CLAUDE_SESSION_ID` 和事件 `session_id`，将角色根路径、输出模式和停用标记保存在 `CLAUDE_PLUGIN_DATA/sessions/`。
+## 模式与提示优先级
 
-`UserPromptSubmit` 只在当前角色激活时注入对应模式的规则与片段。再次显式调用同角色只切换明确指定的模式，未指定则沿用。显式调用其他角色后，旧角色钩子因状态不匹配跳过。`off` 或生成角色的动态前置命令设置停用标记，直到重新显式唤起。
+chat 是第一人称扮演，默认无括号释义；translate 是纯原文转译；strict 是每句原文的特殊风格。人格和语料来源隔离，语言样例不作为人格事实。
 
-帮助读取插件 README，属于普通控制输出，不要求语料格式。`/clear`、`/resume` 卸载钩子后需要重新显式唤起。
+用户显式激活状态使用 schema v3。提示明确人格行为优先于通用助手反射，但不能覆盖系统/开发者指令。默认主 agent 执行，不默认使用无状态 roleplay subagent。
 
-## 输出模式
+## 无运行时复核
 
-- `translate`：仅以合适的语料片段转译用户输入，不加括号释义。
-- `chat`（默认）：正常交互，可不含语料；引用语料后紧跟中文括号释义。
-- `strict`：每句话必须包含至少一条语料片段并紧跟中文括号释义，允许自然语言衔接。
-
-## 软校验
-
-同一 `agent` Stop 钩子先执行 `stop` 脚本。快速通道返回：
-
-- `pass`：脚本足以判定，例如纯转译片段、合规引用、普通无引用对话、停用角色。
-- `review`：脚本未匹配，交给 LLM 结合 `last_assistant_message`、当前模式、项目内原文与片段判断。
-
-语义符合当前模式必须放行，即使换行不同或快速匹配未命中。明确不符合才返回 `ok:false` 和修改意见。括号释义的语义准确度、片段适合度由 LLM 判断；脚本不能证明语义质量。
-
-## 限制
-
-Skill/Stop 不能在助手文本显示前撤回内容。模型复核和重答是尽力约束，不是安全保证。实验性 agent 钩子要求目标 Claude Code 版本支持，脚本单测与 manifest 校验不能代替钩子端到端测试。大量语料逐轮注入有上下文成本，后续可增加检索，但不能牺牲项目内自包含性。
+生成器和角色包均无 Stop，不提供开关。离线 `check` 仅用于测试，不参与运行时。
