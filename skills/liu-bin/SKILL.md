@@ -4,16 +4,11 @@ description: "显式扮演刘斌，可切换转译、扮演、强制模式。需
 user-invocable: true
 disable-model-invocation: true
 allowed-tools:
-  - Bash(${CLAUDE_SKILL_DIR}/scripts/yulu.py invoke *)
+  - Bash(${CLAUDE_PLUGIN_ROOT}/skills/liu-bin/scripts/yulu.py invoke *)
 argument-hint: "[chat|translate|strict|help|off];[给角色的话]"
-hooks:
-  UserPromptSubmit:
-    - hooks:
-        - type: command
-          command: "${CLAUDE_SKILL_DIR}/scripts/yulu.py prompt"
 ---
 
-!`${CLAUDE_SKILL_DIR}/scripts/yulu.py invoke "${CLAUDE_SESSION_ID}" "$ARGUMENTS"`
+!`${CLAUDE_PLUGIN_ROOT}/skills/liu-bin/scripts/yulu.py invoke "${CLAUDE_SESSION_ID}" "$ARGUMENTS"`
 
 # 角色：刘斌
 
@@ -27,6 +22,6 @@ hooks:
 - corpus 是语言库存，提供措辞、节奏与联想；扮演时不要求引用，不得强行堆砌。
 - 只有显式角色命令切换模式或退出；help 是说明，create-character 进入配置流程并退出角色。
 
-运行规则与少量相关语言样例由激活状态和每轮上下文提供。不得读取外部语料路径。
+运行规则与完整语言库存由激活状态和每轮上下文提供，不设置召回数量上限或相关性过滤。不得读取外部语料路径。
 
 默认回退：We are ready for fighting in tonight

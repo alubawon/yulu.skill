@@ -23,6 +23,10 @@ class YuluTest(unittest.TestCase):
         self.root = Path(self.temp.name).resolve()
         (self.root / "characters").mkdir()
         (self.root / "skills").mkdir()
+        shared = self.root / "skills/shared/scripts"
+        shared.mkdir(parents=True)
+        (shared / "yulu.py").write_text((PROJECT / "skills/shared/scripts/yulu.py").read_text())
+        (shared / "yulu.py").chmod(0o755)
         (self.root / "README.md").write_text("帮助", encoding="utf-8")
         self.environment = mock.patch.dict(os.environ, {"CLAUDE_PLUGIN_DATA": str(self.root / "data"), "CLAUDE_SESSION_ID": "session-a"})
         self.environment.start()
@@ -120,14 +124,83 @@ class YuluTest(unittest.TestCase):
         self.assertNotIn("紧跟中文括号", context)
         _, output = self.capture(["prompt", str(self.package)], json.dumps({"session_id": "session-a", "prompt": "说说甲乙"}))
         context = output["hookSpecificOutput"]["additionalContext"]
-        self.assertIn("甲乙", context)
-        self.assertNotIn("丙", context)
-        self.assertLess(len(context), 2000)
+        self.assertLess(context.index("甲乙"), context.index("丙"))
+        self.assertIn("丁", context)
 
-    def test_no_matching_context_does_not_dump_corpus(self):
-        self.activate()
+    def test_translate_uses_full_inventory_even_without_relevant_matches(self):
+        self.activate("translate")
         _, output = self.capture(["prompt", str(self.package)], json.dumps({"session_id": "session-a", "prompt": "完全无关的输入"}))
-        self.assertIn("本轮无匹配样例", output["hookSpecificOutput"]["additionalContext"])
+        context = output["hookSpecificOutput"]["additionalContext"]
+        self.assertIn("没有高置信候选时仍须给出最佳转译", context)
+        self.assertIn("完整语言库存，共 3 条", context)
+        self.assertEqual(yulu.retrieve(["甲乙", "丙", "丁"], "没有匹配"), ["甲乙", "丙", "丁"])
+        for line in ("甲乙", "丙", "丁"):
+            self.assertIn(line, context)
+        self.assertNotIn("本轮无匹配样例", context)
+
+    def test_shared_hook_uses_saved_character_without_skill_dir(self):
+        self.capture(["persona-set", str(self.source), str(self.persona()), "--confirm"])
+        self.capture(["publish", str(self.source), "--output", str(self.package)])
+        self.activate("translate")
+        hooks = json.loads((PROJECT / "hooks/hooks.json").read_text())
+        command = hooks["hooks"]["UserPromptSubmit"][0]["hooks"][0]["command"]
+        self.assertIn("${CLAUDE_PLUGIN_ROOT}/skills/shared/scripts/yulu.py", command)
+        self.assertNotIn("CLAUDE_SKILL_DIR", command)
+        self.assertNotIn("hooks:", (self.package / "SKILL.md").read_text())
+        environment = {"CLAUDE_PLUGIN_ROOT": str(self.root), "CLAUDE_PLUGIN_DATA": str(self.root / "data")}
+        environment.pop("CLAUDE_SKILL_DIR", None)
+        with mock.patch.dict(os.environ, environment, clear=True):
+            result = subprocess.run([str(self.root / "skills/shared/scripts/yulu.py"), "prompt"], input=json.dumps({"session_id": "session-a", "prompt": "没有字面匹配"}), text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        context = json.loads(result.stdout)["hookSpecificOutput"]["additionalContext"]
+        self.assertIn("完整语言库存，共 3 条", context)
+        self.assertIn("丁", context)
+        self.assertNotIn("/scripts/yulu.py", result.stderr)
+
+    def test_shared_hook_uses_legacy_state_without_plugin_environment(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            self.activate("translate")
+        script = self.root / "skills/shared/scripts/yulu.py"
+        event = {"session_id": "session-a", "prompt": "测试", "transcript_path": str(self.root / "home/.claude/projects/test/session.jsonl")}
+        with mock.patch.dict(os.environ, {}, clear=True):
+            result = subprocess.run([str(script), "prompt", str(self.root / "skills/shared")], input=json.dumps(event), text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        context = json.loads(result.stdout)["hookSpecificOutput"]["additionalContext"]
+        self.assertIn("完整语言库存，共 3 条", context)
+        self.assertIn("丁", context)
+
+    def test_publish_preserves_active_runtime_state(self):
+        with mock.patch.dict(os.environ, {}, clear=True):
+            self.activate()
+        state_path = self.package / ".runtime/sessions/session-a.json"
+        state = state_path.read_text()
+        self.capture(["publish", str(self.source), "--output", str(self.package)])
+        self.assertEqual(state_path.read_text(), state)
+        self.assertEqual(self.capture(["prompt", str(self.package)], json.dumps({"session_id": "session-a", "prompt": "继续"}))[0], 0)
+
+    def test_shared_hook_without_activation_is_silent(self):
+        environment = {"CLAUDE_PLUGIN_ROOT": str(self.root), "CLAUDE_PLUGIN_DATA": str(self.root / "data")}
+        with mock.patch.dict(os.environ, environment, clear=True):
+            result = subprocess.run([str(self.root / "skills/shared/scripts/yulu.py"), "prompt"], input=json.dumps({"session_id": "never-active", "prompt": "普通消息"}), text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertEqual(result.stdout, "")
+
+    def test_shared_hook_falls_back_to_transcript_data_location(self):
+        self.activate("translate")
+        transcript = self.root / "home/.claude/projects/test-project/session.jsonl"
+        transcript.parent.mkdir(parents=True)
+        transcript.write_text("")
+        data = self.root / "home/.claude/plugins/data/yulu/sessions/session-a.json"
+        data.parent.mkdir(parents=True)
+        state = json.loads((self.root / "data/sessions/session-a.json").read_text())
+        state["character_root"] = str(self.package.resolve())
+        data.write_text(json.dumps(state))
+        environment = {"CLAUDE_PLUGIN_ROOT": str(self.root), "CLAUDE_PLUGIN_DATA": str(data.parent.parent)}
+        with mock.patch.dict(os.environ, environment, clear=True):
+            result = subprocess.run([str(self.root / "skills/shared/scripts/yulu.py"), "prompt"], input=json.dumps({"session_id": "session-a", "prompt": "测试", "transcript_path": str(transcript)}), text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stderr)
+        context = json.loads(result.stdout)["hookSpecificOutput"]["additionalContext"]
+        self.assertIn("完整语言库存，共 3 条", context)
 
     def test_no_stop_even_with_legacy_switch_and_off(self):
         with mock.patch.dict(os.environ, {"YULU_REVIEW": "1"}):
@@ -163,6 +236,7 @@ class YuluTest(unittest.TestCase):
         self.assertEqual((self.package / "persona.json").read_bytes(), (self.source / "persona.json").read_bytes())
         self.assertTrue((self.package / "scripts/yulu.py").is_file())
         self.assertNotIn("evidence", [path.name for path in self.package.iterdir()])
+        self.assertNotIn("README.md", [path.name for path in self.package.iterdir()])
 
 
 if __name__ == "__main__":

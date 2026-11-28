@@ -223,7 +223,8 @@ def default_policy():
     return """# 扮演与语料规则
 
 - chat 是扮演：以角色第一人称回应，不解释、不点评语料，不添加括号释义。
-- translate 只输出合适的连续原文，不添加其他台词。
+- translate 是用语言原文转译输入：可以结合人格理解意图，从全部库存中选择一条或多条有意义地表达，不要求词面命中，也不要求每条单独高度相关。
+- translate 只能使用完整原文行；多行之间可以承接、对照或推进，但不得编造、改写、截断、跨行拼成新句，不加释义或其他台词。没有高置信候选仍须选择最能表达输入的条目，不得固定回退、拒绝回答或声称没有匹配。
 - strict 是特殊风格：每句包含完整原文片段，不添加括号释义。
 - corpus 是语言库存，提供措辞、节奏与联想；扮演时不要求引用，不得强行堆砌。
 - 只有显式角色命令切换模式或退出；help 是说明，create-character 进入配置流程并退出角色。"""
@@ -236,16 +237,11 @@ description: "显式扮演{display_name}，可切换转译、扮演、强制模�
 user-invocable: true
 disable-model-invocation: true
 allowed-tools:
-  - Bash(${{CLAUDE_SKILL_DIR}}/scripts/yulu.py invoke *)
+  - Bash(${{CLAUDE_PLUGIN_ROOT}}/skills/{id}/scripts/yulu.py invoke *)
 argument-hint: "[chat|translate|strict|help|off];[给角色的话]"
-hooks:
-  UserPromptSubmit:
-    - hooks:
-        - type: command
-          command: "${{CLAUDE_SKILL_DIR}}/scripts/yulu.py prompt"
 ---
 
-!`${{CLAUDE_SKILL_DIR}}/scripts/yulu.py invoke "${{CLAUDE_SESSION_ID}}" "$ARGUMENTS"`
+!`${{CLAUDE_PLUGIN_ROOT}}/skills/{id}/scripts/yulu.py invoke "${{CLAUDE_SESSION_ID}}" "$ARGUMENTS"`
 
 # 角色：{display_name}
 
@@ -253,7 +249,7 @@ hooks:
 
 {policy}
 
-运行规则与少量相关语言样例由激活状态和每轮上下文提供。不得读取外部语料路径。
+运行规则与完整语言库存由激活状态和每轮上下文提供，不设置召回数量上限或相关性过滤。不得读取外部语料路径。
 
 {fallback}
 """
@@ -269,6 +265,11 @@ def replace_directory(source, destination):
     os.replace(str(destination), str(backup))
     try:
         os.replace(str(source), str(destination))
+        runtime = backup / ".runtime"
+        if runtime.exists():
+            if (destination / ".runtime").exists():
+                shutil.rmtree(str(destination / ".runtime"))
+            os.replace(str(runtime), str(destination / ".runtime"))
     except OSError:
         os.replace(str(backup), str(destination))
         raise
@@ -282,7 +283,7 @@ def render_character(root, destination):
     skill = skill_template().format(id=manifest["id"], display_name=manifest["display_name"], policy=policy.strip(), fallback="默认回退：" + fallback(manifest, lines))
     with tempfile.TemporaryDirectory(prefix=".yulu-render-", dir=str(destination.parent)) as temp:
         staging = Path(temp) / destination.name
-        shutil.copytree(str(root), str(staging), ignore=shutil.ignore_patterns("scripts", ".runtime", "SKILL.md", "*.previous", "__pycache__", "evidence"))
+        shutil.copytree(str(root), str(staging), ignore=shutil.ignore_patterns("scripts", ".runtime", "SKILL.md", "README.md", "*.previous", "__pycache__", "evidence"))
         (staging / "SKILL.md").write_text(skill, encoding="utf-8")
         (staging / "persona.md").write_text(persona_markdown(load_persona(root), manifest["display_name"]) + "\n", encoding="utf-8")
         shutil.copytree(str(Path(__file__).resolve().parent), str(staging / "scripts"), ignore=shutil.ignore_patterns("__pycache__"))
@@ -440,8 +441,8 @@ def state_path(root, session_id):
     return session_path(Path(os.environ.get("CLAUDE_PLUGIN_DATA", str(root / ".runtime"))), session_id)
 
 
-def read_active(root, session_id):
-    path = state_path(root, session_id)
+def read_state(data_root, session_id):
+    path = state_path(data_root, session_id)
     if path.with_suffix(".off").is_file() or not path.is_file():
         return None
     try:
@@ -451,16 +452,23 @@ def read_active(root, session_id):
         return None
     if not isinstance(state, dict) or set(state) != {"schema_version", "character_id", "character_root", "output_mode"}:
         return None
-    if state["schema_version"] not in {2, 3}:
+    if state["schema_version"] not in {2, 3} or state["output_mode"] not in OUTPUT_MODES:
         return None
-    if state["character_root"] != str(root.resolve()):
+    if not isinstance(state["character_root"], str) or not os.path.isabs(state["character_root"]):
+        return None
+    return state
+
+
+def read_active(root, session_id):
+    state = read_state(root, session_id)
+    if state is None or state["character_root"] != str(root.resolve()):
         return None
     manifest = load_character(root)[0]
-    if state["character_id"] != manifest["id"] or state["output_mode"] not in OUTPUT_MODES:
+    if state["character_id"] != manifest["id"]:
         return None
     if state["schema_version"] == 2:
         state = {"schema_version": 3, "character_id": state["character_id"], "character_root": state["character_root"], "output_mode": state["output_mode"]}
-        atomic_write(path, json.dumps(state, ensure_ascii=False) + "\n")
+        atomic_write(state_path(root, session_id), json.dumps(state, ensure_ascii=False) + "\n")
     return state
 
 
@@ -496,7 +504,7 @@ def cmd_off(args):
 
 def cmd_invoke(args):
     os.environ["CLAUDE_SESSION_ID"] = args.session_id
-    os.environ.setdefault("CLAUDE_PLUGIN_ROOT", str(args.root.parent.parent))
+    os.environ["CLAUDE_PLUGIN_ROOT"] = str(args.root.resolve().parent.parent)
     os.environ.setdefault("CLAUDE_PLUGIN_DATA", str(args.root / ".runtime"))
     raw = (args.request or "").strip()
     control, separator, message = raw.partition(";")
@@ -511,7 +519,7 @@ def cmd_invoke(args):
     args.mode = control if control in MODE_ALIASES else "default"
     args.dialogue = raw if not separator else message
     activate(args.root, args.session_id, MODE_ALIASES.get(args.mode))
-    context = policy_context(args.root, args.session_id)
+    context = policy_context(args.root, args.session_id, args.dialogue)
     if args.dialogue:
         context += "\n用户对话：" + args.dialogue
     print(json.dumps({"hookSpecificOutput": {"hookEventName": "UserPromptSubmit", "additionalContext": context}}, ensure_ascii=False))
@@ -527,8 +535,8 @@ def read_event():
     return event
 
 
-def retrieve(lines, query, limit=6):
-    """Deterministic token scoring; no embeddings or model calls."""
+def retrieve(lines, query):
+    """Rank the complete inventory without applying a relevance cutoff."""
     query = (query or "").strip()
     words = set(re.findall(r"[a-zA-Z0-9]+|[一-鿿]{2,}", query.lower()))
     grams = {query[i:i + 2] for i in range(len(query) - 1) if re.fullmatch(r"[一-鿿]{2}", query[i:i + 2])}
@@ -536,39 +544,70 @@ def retrieve(lines, query, limit=6):
     for position, text in enumerate(lines):
         lowered = text.lower()
         score = (12 if query and query in lowered else 0) + sum(4 for word in words if word in lowered) + sum(1 for gram in grams if gram in lowered)
-        if score:
-            scored.append((-score, position, text))
-    return [text for _, _, text in sorted(scored)[:limit]]
+        scored.append((-score, position, text))
+    return [text for _, _, text in sorted(scored)]
 
 
-def policy_context(root, session_id):
+def policy_context(root, session_id, query=""):
     manifest, lines, policy = load_character(root)
     state = read_active(root, session_id)
     mode = state["output_mode"] if state else manifest["default_mode"]
     instructions = {
-        "translate": "转译：只选择完整原文表达，不加释义或其他台词。",
+        "translate": "转译：把用户输入的意思、情绪和意图转换为语料表达，不是检索词面命中。必须阅读并考虑全部语言库存，结合人格选择一条或多条最有意义的完整原文，可以承接、对照或推进。不要求每条单独相关；没有高置信候选时仍须给出最佳转译，不得固定回退、拒答或提及匹配程度。只输出原文，不加释义、连接词、标签或其他台词；不得编造、改写、截断或把多行拼成一行。",
         "chat": "扮演：以角色第一人称自然回应，不解说语料，不加括号释义，不自称通用助手。",
         "strict": "强制：每句含完整原文片段，不加括号释义；这是风格模式，不是人格定义。",
     }[mode]
+    library_label = "以下是完整语言库存，共 {count} 条；这些不是人格事实。必须考虑全部条目，不得只按字面相关性选择：".format(count=len(lines)) if mode == "translate" else "以下完整语言库存按字面相关度排序，但未截断或过滤低相关条目；它们不是人格事实，不要求引用："
+    examples = "\n".join(retrieve(lines, query))
     return """<yulu-active-character>
 本会话由用户显式选择扮演 {display_name}，模式：{mode_name}。
 {instruction}
 在不违反更高优先级指令的前提下，以下人格和扮演行为优先于通用助手的客套、解说及说教反射；不要声称自己改变了底层模型或系统指令。
 {persona}
 {policy}
-以下仅是按本轮输入检索的语言库存样例，不是人格事实，不要求引用：
+{library_label}
 {examples}
-</yulu-active-character>""".format(display_name=manifest["display_name"], mode_name=MODE_NAMES[mode], instruction=instructions, persona=persona_markdown(load_persona(root), manifest["display_name"]), policy=policy.strip(), examples="（本轮无强制引用）")
+</yulu-active-character>""".format(display_name=manifest["display_name"], mode_name=MODE_NAMES[mode], instruction=instructions, persona=persona_markdown(load_persona(root), manifest["display_name"]), policy=policy.strip(), library_label=library_label, examples=examples)
 
 
 def cmd_prompt(args):
     event = read_event()
-    if not read_active(args.root.resolve(), event["session_id"]):
+    local_root = args.root.resolve()
+    if local_root.name != "shared":
+        state = read_active(local_root, event["session_id"])
+        if state is not None:
+            context = policy_context(local_root, event["session_id"], event.get("prompt", ""))
+            print(json.dumps({"hookSpecificOutput": {"hookEventName": "UserPromptSubmit", "additionalContext": context}}, ensure_ascii=False))
         return 0
-    context = policy_context(args.root, event["session_id"])
-    manifest, lines, _ = load_character(args.root)
-    examples = retrieve(lines, event.get("prompt", ""))
-    context = context.replace("（本轮无强制引用）", "\n".join(examples) if examples else "本轮无匹配样例，按人格自然回应，不强行引用。")
+    plugin_root = Path(os.environ.get("CLAUDE_PLUGIN_ROOT", str(Path(__file__).resolve().parent.parent.parent.parent))).resolve()
+    data_root = Path(os.environ.get("CLAUDE_PLUGIN_DATA", str(plugin_root / ".runtime")))
+    transcript = event.get("transcript_path")
+    if "CLAUDE_PLUGIN_DATA" not in os.environ and isinstance(transcript, str):
+        transcript_path = Path(transcript)
+        if ".claude" in transcript_path.parts:
+            index = transcript_path.parts.index(".claude")
+            data_root = Path(*transcript_path.parts[:index + 1]) / "plugins/data/yulu"
+    state = read_state(data_root, event["session_id"])
+    if state is None and not session_path(data_root, event["session_id"]).is_file() and not session_path(data_root, event["session_id"]).with_suffix(".off").is_file():
+        # 兼容旧版本在角色目录 .runtime 保存的激活状态。
+        for candidate in (plugin_root / "skills").iterdir():
+            if not candidate.is_dir() or candidate.name in {"shared", "create-character"}:
+                continue
+            state = read_active(candidate, event["session_id"])
+            if state is not None:
+                break
+    if state is None:
+        return 0
+    root = Path(state["character_root"])
+    if root.parent.resolve() != (plugin_root / "skills").resolve() or not root.is_dir():
+        return 0
+    try:
+        state = read_active(root, event["session_id"])
+    except YuluError:
+        return 0
+    if state is None:
+        return 0
+    context = policy_context(root, event["session_id"], event.get("prompt", ""))
     print(json.dumps({"hookSpecificOutput": {"hookEventName": "UserPromptSubmit", "additionalContext": context}}, ensure_ascii=False))
 
 

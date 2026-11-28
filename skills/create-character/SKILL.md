@@ -88,6 +88,7 @@ python3 "${CLAUDE_PLUGIN_ROOT}/skills/shared/scripts/yulu.py" publish \
 ## 运行时语义
 
 - chat = 第一人称扮演，不解说语料，默认无括号释义。
-- translate = 纯原文转译；strict = 每句引用原文的特殊风格。
-- corpus 是语言库存，不是人格事实。运行时只注入 persona 和少量检索样例，不全量注入排列组合。
+- translate = 纯原文转译：从完整库存选择一条或多条有意义的原文表达输入，不要求词面或单条高相关，无高置信候选仍须给出最佳转译，不固定回退；不得自造、截断或拼接新句。
+- strict = 每句引用原文的特殊风格。
+- corpus 是语言库存，不是人格事实。运行时注入 persona 和完整库存，无 6 条上限或相关性过滤；chat/strict 仅排序参考，translate 必须全库选句。
 - 运行时无 Stop 和 LLM 复核；不提供生成开关。

@@ -1,0 +1,15 @@
+{
+  "description": "在显式唤起角色后，为后续用户输入注入完整语言库存。",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "env -u CLAUDE_PLUGIN_ROOT -u CLAUDE_PLUGIN_DATA \"${CLAUDE_PLUGIN_ROOT}/skills/shared/scripts/yulu.py\" prompt"
+          }
+        ]
+      }
+    ]
+  }
+}
